@@ -1,0 +1,2685 @@
+fileFormatVersion: 2
+guid: 8b46e4d9de53d634b84e1f01c8337b73
+timeCreated: 1453756685
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: portraits_0
+    21300002: portraits_1
+    21300004: portraits_2
+    21300006: portraits_3
+    21300008: portraits_4
+    21300010: portraits_5
+    21300012: portraits_6
+    21300014: portraits_7
+    21300016: portraits_8
+    21300018: portraits_9
+    21300020: portraits_10
+    21300022: portraits_11
+    21300024: portraits_12
+    21300026: portraits_13
+    21300028: portraits_14
+    21300030: portraits_15
+    21300032: portraits_16
+    21300034: portraits_17
+    21300036: portraits_18
+    21300038: portraits_19
+    21300040: portraits_20
+    21300042: portraits_21
+    21300044: portraits_22
+    21300046: portraits_23
+    21300048: portraits_24
+    21300050: portraits_25
+    21300052: portraits_26
+    21300054: portraits_27
+    21300056: portraits_28
+    21300058: portraits_29
+    21300060: portraits_30
+    21300062: portraits_31
+    21300064: portraits_32
+    21300066: portraits_33
+    21300068: portraits_34
+    21300070: portraits_35
+    21300072: portraits_36
+    21300074: portraits_37
+    21300076: portraits_38
+    21300078: portraits_39
+    21300080: portraits_40
+    21300082: portraits_41
+    21300084: portraits_42
+    21300086: portraits_43
+    21300088: portraits_44
+    21300090: portraits_45
+    21300092: portraits_46
+    21300094: portraits_47
+    21300096: portraits_48
+    21300098: portraits_49
+    21300100: portraits_50
+    21300102: portraits_51
+    21300104: portraits_52
+    21300106: portraits_53
+    21300108: portraits_54
+    21300110: portraits_55
+    21300112: portraits_56
+    21300114: portraits_57
+    21300116: portraits_58
+    21300118: portraits_59
+    21300120: portraits_60
+    21300122: portraits_61
+    21300124: portraits_62
+    21300126: portraits_63
+    21300128: portraits_64
+    21300130: portraits_65
+    21300132: portraits_66
+    21300134: portraits_67
+    21300136: portraits_68
+    21300138: portraits_69
+    21300140: portraits_70
+    21300142: portraits_71
+    21300144: portraits_72
+    21300146: portraits_73
+    21300148: portraits_74
+    21300150: portraits_75
+    21300152: portraits_76
+    21300154: portraits_77
+    21300156: portraits_78
+    21300158: portraits_79
+    21300160: portraits_80
+    21300162: portraits_81
+    21300164: portraits_82
+    21300166: portraits_83
+    21300168: portraits_84
+    21300170: portraits_85
+    21300172: portraits_86
+    21300174: portraits_87
+    21300176: portraits_88
+    21300178: portraits_89
+    21300180: portraits_90
+    21300182: portraits_91
+    21300184: portraits_92
+    21300186: portraits_93
+    21300188: portraits_94
+    21300190: portraits_95
+    21300192: portraits_96
+    21300194: portraits_97
+    21300196: portraits_98
+    21300198: portraits_99
+    21300200: portraits_100
+    21300202: portraits_101
+    21300204: portraits_102
+    21300206: portraits_103
+    21300208: portraits_104
+    21300210: portraits_105
+    21300212: portraits_106
+    21300214: portraits_107
+    21300216: portraits_108
+    21300218: portraits_109
+    21300220: portraits_110
+    21300222: portraits_111
+    21300224: portraits_112
+    21300226: portraits_113
+    21300228: portraits_114
+    21300230: portraits_115
+    21300232: portraits_116
+    21300234: portraits_117
+    21300236: portraits_118
+    21300238: portraits_119
+    21300240: portraits_120
+    21300242: portraits_121
+    21300244: portraits_122
+    21300246: portraits_123
+    21300248: portraits_124
+    21300250: portraits_125
+    21300252: portraits_126
+    21300254: portraits_127
+    21300256: portraits_128
+    21300258: portraits_129
+    21300260: portraits_130
+    21300262: portraits_131
+    21300264: portraits_132
+    21300266: portraits_133
+    21300268: portraits_134
+    21300270: portraits_135
+    21300272: portraits_136
+    21300274: portraits_137
+    21300276: portraits_138
+    21300278: portraits_139
+    21300280: portraits_140
+    21300282: portraits_141
+    21300284: portraits_142
+    21300286: portraits_143
+    21300288: portraits_144
+    21300290: portraits_145
+    21300292: portraits_146
+    21300294: portraits_147
+    21300296: portraits_148
+    21300298: portraits_149
+    21300300: portraits_150
+    21300302: portraits_151
+    21300304: portraits_152
+    21300306: portraits_153
+    21300308: portraits_154
+    21300310: portraits_155
+    21300312: portraits_156
+    21300314: portraits_157
+    21300316: portraits_158
+    21300318: portraits_159
+    21300320: portraits_160
+    21300322: portraits_161
+    21300324: portraits_162
+    21300326: portraits_163
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: portraits_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_7
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 842
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 842
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 842
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 25}
+        - {x: -32, y: 24}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_17
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 790
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_18
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 790
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_19
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 790
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_23
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_24
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_27
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 738
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 25}
+        - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+    - name: portraits_28
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 738
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_29
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 738
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_34
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_36
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_37
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 685
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_38
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 685
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_39
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 685
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_43
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_47
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 633
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_48
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 633
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_49
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 633
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_51
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_53
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_54
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_56
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_57
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 581
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_58
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 581
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_59
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 581
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_61
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_63
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_66
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_67
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 528
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_68
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 528
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_69
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 528
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_71
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_73
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_74
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_76
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 476
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_78
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 476
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_79
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 476
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_81
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_82
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_83
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_84
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_86
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_87
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 424
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_88
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 424
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_89
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 424
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_91
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_92
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_93
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25}
+        - {x: 18, y: 22}
+        - {x: 12, y: 25}
+        - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_94
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_96
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_97
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 371
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_98
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 371
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_99
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 371
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_100
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_101
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_102
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_104
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_105
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_106
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_107
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 319
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_108
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 319
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_109
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 319
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_110
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_111
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_112
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_113
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_114
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_115
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_116
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_117
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 267
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_118
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 267
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_119
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 267
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_121
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_122
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_123
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_124
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_125
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_126
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_127
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 214
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_128
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 214
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_129
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 214
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_130
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_131
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_132
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_133
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_134
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_135
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_136
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_137
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 162
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_138
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 162
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_139
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 162
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_140
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_141
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_142
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_143
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_144
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_145
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_146
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_147
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 110
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_148
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 110
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_149
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 110
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_150
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_151
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_152
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_153
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_154
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_156
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_157
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 57
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_158
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 57
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_159
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 57
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 25}
+        - {x: -31.5, y: -25}
+        - {x: 31.5, y: -25}
+        - {x: 31.5, y: 25}
+    - name: portraits_160
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_161
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_162
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    - name: portraits_163
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 5
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25}
+        - {x: -32, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
