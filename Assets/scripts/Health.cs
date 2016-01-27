@@ -38,7 +38,8 @@ public class Health : MonoBehaviour {
 	}
 	void UpdateBar()
 	{
-		bar.UpdateValue ((int)currentHP, (int)totalHP);
+		if (bar != null)
+			bar.UpdateValue ((int)currentHP, (int)totalHP);
 	}
 	void ShowFloatingText(float amount)
 	{
