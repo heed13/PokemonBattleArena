@@ -20,5 +20,7 @@ public class CharacterInfo {
 	public characterTypes[] weak;
 	public characterTypes[] resistant;
 	public Sprite[] mugRotation;
+	public Texture portrait;
+	public GameObject prefab;
 
 }
