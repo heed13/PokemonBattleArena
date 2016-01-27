@@ -1,14 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class Attack : MonoBehaviour {
-	public enum kAttackTypes {
-		fire,
-		water,
-		etc,
-		count
-	}
-	public kAttackTypes type;
+	public CharacterInfo.characterTypes type;
 	public float damage;
-	public GameObject Attacker;
+	public float totalDmgDone = 0;
+	public GameObject Attacker; // TODO this needs to be redefined
+	public Action<Attack> callback;
+
 }

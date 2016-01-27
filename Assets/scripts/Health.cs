@@ -11,8 +11,8 @@ public class Health : MonoBehaviour {
 	public float totalHP;
 
 	// Type Vars
-	public Attack.kAttackTypes weakAgainst;
-	public Attack.kAttackTypes resistantTo;
+	public CharacterInfo.characterTypes weakAgainst;
+	public CharacterInfo.characterTypes resistantTo;
 	private float weaknessMultiplier = 2.0f;
 	private float resistanceMultiplier = 0.5f;
 
@@ -41,6 +41,11 @@ public class Health : MonoBehaviour {
 		if (bar != null)
 			bar.UpdateValue ((int)currentHP, (int)totalHP);
 	}
+	void HideBar()
+	{
+		if (bar != null)
+			bar.gameObject.SetActive (false);
+	}
 	void ShowFloatingText(float amount)
 	{
 		Transform obj = EZ_PoolManager.Spawn (FloatingTextPrefab, transform.position, Quaternion.identity);
@@ -57,25 +62,39 @@ public class Health : MonoBehaviour {
 	void Die()
 	{
 		gameObject.SetActive (false);
-		bar.gameObject.SetActive (false);
+		HideBar ();
 	}
 		
 	public void TakeDamage(Attack atk)
 	{
-		Debug.Log ("taking dmg: " + atk.damage.ToString ());
 		float appliedDmg = atk.damage;
 
+		// Figure out weak/resistant
 		if (atk.type == weakAgainst) {
 			appliedDmg *= weaknessMultiplier;
 		} else if (atk.type == resistantTo) {
 			appliedDmg *= resistanceMultiplier;
 		}
+
+		// Apply damage
 		currentHP -= appliedDmg;
+		atk.totalDmgDone = appliedDmg;
 		UpdateBar ();
 		ShowFloatingText (appliedDmg);
+
+		// Check Death
 		if (currentHP <= 0) {
+			// Kill object
 			currentHP = 0;
+
+			// Give exp
+			atk.Attacker.GetComponent<Experience> ().gainExperience (GetComponent<Experience> ().dropExperience ());
+
+			// End our misery
 			Die ();
 		}
+
+		// Any callbacks the other player might have
+		atk.callback (atk);
 	}
 }

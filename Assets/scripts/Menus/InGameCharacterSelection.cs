@@ -17,7 +17,8 @@ public class InGameCharacterSelection : MonoBehaviour {
 	}
 	void spawnCharacter(int index)
 	{
-		Instantiate (selectedCharacterInfo [index].prefab, Vector3.zero, Quaternion.identity);
+		GameObject playerGO = (GameObject)Instantiate (selectedCharacterInfo [index].prefab, Vector3.zero, Quaternion.identity);
+		playerGO.tag = "Player";
 
 	}
 

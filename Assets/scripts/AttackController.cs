@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -7,6 +8,13 @@ public class AttackController : MonoBehaviour {
 	public GameObject projectile;
 	public float attackDelay = 0.5f;
 	public int poolAmount = 20;
+
+	[System.Serializable]
+	public class MyEventType : UnityEvent<Attack> { }
+	public MyEventType onHit;
+	public MyEventType onKill;
+
+
 
 	private int teamId;
 	private Rigidbody2D rb;
@@ -60,10 +68,17 @@ public class AttackController : MonoBehaviour {
 					projectiles [i].transform.position = transform.position;
 					projectiles [i].transform.eulerAngles = new Vector3 (0, 0, deg);
 					projectiles [i].GetComponent<Attack> ().Attacker = gameObject;
+					projectiles [i].GetComponent<Attack> ().callback = hitCallback;
 					projectiles [i].SetActive (true);
 					break;
 				}
 			}
 		}
+	}
+
+	public void hitCallback(Attack atk)
+	{
+		Debug.Log ("hit callback worked!!");
+		onHit.Invoke (atk);
 	}
 }

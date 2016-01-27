@@ -18,6 +18,11 @@ public class Experience : MonoBehaviour {
 		return level;
 	}
 
+	public void getExperienceFromObject(Experience exp)
+	{
+		gainExperience (exp.dropExperience ());
+	}
+
 	void levelUp()
 	{
 		level++;
