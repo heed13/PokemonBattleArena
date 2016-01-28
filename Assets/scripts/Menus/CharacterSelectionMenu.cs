@@ -220,9 +220,13 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	}
 	public void setRandom()
 	{
-		CharacterInfo.characterTypes type;
+		CharacterInfo.characterTypes type = (CharacterInfo.characterTypes)Random.Range (0, (int)CharacterInfo.characterTypes.count);
 		do {
+			CharacterInfo.characterTypes tmp = type;
 			type = (CharacterInfo.characterTypes)Random.Range (0, (int)CharacterInfo.characterTypes.count);
+			if (type == CharacterInfo.characterTypes.none) {
+				type = tmp;
+			}
 		}while (selectedSixTypes.Contains(type) && selectedSixTypes.Count < selectedMax);
 		setCharacter (type);
 	}

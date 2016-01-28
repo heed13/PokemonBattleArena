@@ -7,6 +7,8 @@ public class Attack : MonoBehaviour {
 	public float damage;
 	public float totalDmgDone = 0;
 	public GameObject Attacker; // TODO this needs to be redefined
-	public Action<Attack> callback;
+	public Action<Attack> hitCallback;
+	public Action<Attack> deathCallback;
+
 
 }

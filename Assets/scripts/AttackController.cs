@@ -14,8 +14,6 @@ public class AttackController : MonoBehaviour {
 	public MyEventType onHit;
 	public MyEventType onKill;
 
-
-
 	private int teamId;
 	private Rigidbody2D rb;
 	private List<GameObject> projectiles;
@@ -50,7 +48,6 @@ public class AttackController : MonoBehaviour {
 	{
 		anim.SetBool ("attacking", val);
 		attacking = val;
-		rb.isKinematic = val;
 	}
 
 	public void NormalAttack()
@@ -68,7 +65,8 @@ public class AttackController : MonoBehaviour {
 					projectiles [i].transform.position = transform.position;
 					projectiles [i].transform.eulerAngles = new Vector3 (0, 0, deg);
 					projectiles [i].GetComponent<Attack> ().Attacker = gameObject;
-					projectiles [i].GetComponent<Attack> ().callback = hitCallback;
+					projectiles [i].GetComponent<Attack> ().hitCallback = onhitCallback;
+					projectiles [i].GetComponent<Attack> ().deathCallback = onKillCallback;
 					projectiles [i].SetActive (true);
 					break;
 				}
@@ -76,9 +74,12 @@ public class AttackController : MonoBehaviour {
 		}
 	}
 
-	public void hitCallback(Attack atk)
+	public void onhitCallback(Attack atk)
 	{
-		Debug.Log ("hit callback worked!!");
 		onHit.Invoke (atk);
+	}
+	public void onKillCallback(Attack atk)
+	{
+		onKill.Invoke (atk);
 	}
 }

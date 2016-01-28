@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class InGameCharacterSelection : MonoBehaviour {
+	public GameObject prefab; // todo this doesn't belong here
 	public InstantGuiElement window;
 	public InstantGuiElement background;
 
@@ -17,8 +18,8 @@ public class InGameCharacterSelection : MonoBehaviour {
 	}
 	void spawnCharacter(int index)
 	{
-		GameObject playerGO = (GameObject)Instantiate (selectedCharacterInfo [index].prefab, Vector3.zero, Quaternion.identity);
-		playerGO.tag = "Player";
+		GameObject playerGO = (GameObject)Instantiate (prefab, Vector3.zero, Quaternion.identity);
+		playerGO.GetComponent<PlayerSprite> ().prepSprite (selectedCharacterInfo [index]);
 
 	}
 

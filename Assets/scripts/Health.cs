@@ -95,6 +95,8 @@ public class Health : MonoBehaviour {
 		}
 
 		// Any callbacks the other player might have
-		atk.callback (atk);
+		atk.hitCallback (atk);
+		atk.deathCallback (atk);
+
 	}
 }
