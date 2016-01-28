@@ -15,7 +15,7 @@ public class Projectile : MonoBehaviour {
 		expired = false;
 	}
 
-	void OnCollisionEnter2D(Collision2D col)
+	void OnTriggerEnter2D(Collider2D col)
 	{
 		if (!expired) {
 			if (col.gameObject.CompareTag ("Enemy")) {
