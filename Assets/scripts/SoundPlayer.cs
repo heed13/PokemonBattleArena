@@ -39,17 +39,7 @@ public class SoundPlayer : MonoBehaviour {
 			soundBites.Add (audioClips [i].name, audioClips [i].clips);
 		}
 	}
-	void Start()
-	{
-		StartCoroutine ("testMusic");
-	}
 
-	IEnumerator testMusic()
-	{
-		playMusic ("wanderMusic");
-		yield return new WaitForSeconds (3);
-		playMusic ("battleMusic");
-	}
 	public void playSound(string key, Vector2 location)
 	{
 		AudioClip[] clips = null;
