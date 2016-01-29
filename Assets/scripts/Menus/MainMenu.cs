@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour {
 	public string mainMenuMusic = "MainMenuMusic";
 	void Start()
 	{
-		SoundPlayer.soundPlayer.playMusic (mainMenuMusic);
+		SoundPlayer.soundPlayer.playMusic (mainMenuMusic,0.0f);
 	}
 	public void QuickPlay()
 	{

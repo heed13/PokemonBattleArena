@@ -55,7 +55,6 @@ public class AttackController : MonoBehaviour {
 
 	public void NormalAttack()
 	{
-		Debug.Log (attackAnim);
 		if (Time.time >= nextAttack) {
 			nextAttack = Time.time + attackDelay;
 

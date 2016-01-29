@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[RequireComponent (typeof(AudioSource))]
 public class SoundPlayer : MonoBehaviour {
 	// Static var
 	public static SoundPlayer soundPlayer;
@@ -22,13 +23,14 @@ public class SoundPlayer : MonoBehaviour {
 
 	// fading
 	enum Fade {In,Out};
-	float fadeTime = 4.0f;
+	float fadeTime = 2.0f;
 
 	void Awake()
 	{
 		// If soundPlayer doesn't exist, this is it
 		if (soundPlayer == null) {
 			soundPlayer = this;
+			DontDestroyOnLoad (this.gameObject);
 			// If soundPlayer exists, destory this
 		} else if (soundPlayer != this) {
 			Destroy(gameObject);
@@ -38,6 +40,8 @@ public class SoundPlayer : MonoBehaviour {
 		for (int i = 0; i < audioClips.Length; i++) {
 			soundBites.Add (audioClips [i].name, audioClips [i].clips);
 		}
+
+		music = GetComponent<AudioSource> ();
 	}
 
 	public void playSound(string key, Vector2 location)
@@ -57,8 +61,10 @@ public class SoundPlayer : MonoBehaviour {
 			source.Play ();
 		}
 	}
-	public void playMusic(string key)
+	public void playMusic(string key, float _fadeTime = -1.0f)
 	{
+		if (_fadeTime == -1.0f)
+			_fadeTime = fadeTime;
 		AudioClip[] clips = null;
 		if (soundBites.ContainsKey (key)) {
 			clips = soundBites [key];
@@ -66,12 +72,12 @@ public class SoundPlayer : MonoBehaviour {
 		if (clips != null) {
 			if (music == null) {
 				setMusic (key, clips);
-				StartCoroutine(FadeMusic(music,fadeTime,Fade.In));
+				StartCoroutine(FadeMusic(music,_fadeTime,Fade.In));
 			}
 			else {
-				StartCoroutine (FadeMusic (music, fadeTime, Fade.Out, (bool value) => {
+				StartCoroutine (FadeMusic (music, _fadeTime, Fade.Out, (bool value) => {
 					setMusic(key, clips);
-					StartCoroutine (FadeMusic (music, fadeTime, Fade.In));
+					StartCoroutine (FadeMusic (music, _fadeTime, Fade.In));
 				}));
 			}
 
@@ -81,10 +87,13 @@ public class SoundPlayer : MonoBehaviour {
 	{
 		StartCoroutine (FadeMusic (music, fadeTime, Fade.Out,completed));
 	}
+
+	public bool musicIsPlaying()
+	{
+		return music.isPlaying;
+	}
 	void setMusic(string key, AudioClip[] clips)
 	{
-		Transform audioSourceTransform = EZ_Pooling.EZ_PoolManager.Spawn (audioPrefab, Vector3.zero, Quaternion.identity);
-		music = audioSourceTransform.GetComponent<AudioSource> ();
 		music.clip = clips [Random.Range (0, clips.Length)];
 		music.loop = true;
 		music.volume = musicVolume;

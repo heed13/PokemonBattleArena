@@ -30,9 +30,7 @@ public class GameManager : MonoBehaviour {
 	public void startGame()
 	{
 		// TODO: save a search game type option to pass into this 
-		SoundPlayer.soundPlayer.stopMusic(.5f ,(bool val) => {
-			SceneManager.LoadScene("SCENE");
-		});
+		SceneManager.LoadScene("SCENE");
 	}
 	public void setSelectedPokemon(List<CharacterInfo> info)
 	{

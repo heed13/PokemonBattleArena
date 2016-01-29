@@ -73,6 +73,8 @@ public class PlayerSprite : MonoBehaviour {
 
 		ac.attackAnim = info.attackAnimator;
 
+
+
 	}
 
 
