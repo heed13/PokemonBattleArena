@@ -62,6 +62,7 @@ public class AttackController : MonoBehaviour {
 
 			for (int i = 0; i < projectiles.Count; i++) {
 				if (!projectiles [i].activeInHierarchy) {
+					SoundPlayer.soundPlayer.playSound ("psychicAttack", transform.position);
 					projectiles [i].transform.position = transform.position;
 					projectiles [i].transform.eulerAngles = new Vector3 (0, 0, deg);
 					projectiles [i].GetComponent<Attack> ().Attacker = gameObject;

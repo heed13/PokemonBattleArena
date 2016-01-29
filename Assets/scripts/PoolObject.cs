@@ -10,7 +10,7 @@ public class PoolObject : MonoBehaviour {
 		Invoke ("Destroy", destroyAfterTime);
 	}
 
-	void Destroy()
+	public void Destroy()
 	{
 		gameObject.SetActive (false);
 	}

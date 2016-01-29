@@ -65,6 +65,10 @@ public class Health : MonoBehaviour {
 		HideBar ();
 	}
 		
+	void playHitSound(CharacterInfo.characterTypes type)
+	{
+		SoundPlayer.soundPlayer.playSound ("genericHurt", transform.position);
+	}
 	public void TakeDamage(Attack atk)
 	{
 		float appliedDmg = atk.damage;
@@ -81,7 +85,7 @@ public class Health : MonoBehaviour {
 		atk.totalDmgDone = appliedDmg;
 		UpdateBar ();
 		ShowFloatingText (appliedDmg);
-
+		playHitSound (atk.type);
 		// Check Death
 		if (currentHP <= 0) {
 			// Kill object
