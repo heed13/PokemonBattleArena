@@ -77,6 +77,10 @@ public class SoundPlayer : MonoBehaviour {
 
 		}
 	}
+	public void stopMusic(float fadeTime, System.Action<bool> completed)
+	{
+		StartCoroutine (FadeMusic (music, fadeTime, Fade.Out,completed));
+	}
 	void setMusic(string key, AudioClip[] clips)
 	{
 		Transform audioSourceTransform = EZ_Pooling.EZ_PoolManager.Spawn (audioPrefab, Vector3.zero, Quaternion.identity);

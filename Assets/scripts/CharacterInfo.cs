@@ -26,6 +26,7 @@ public class CharacterInfo {
 	public List<Sprite> mugRotation;
 	public Texture portrait;
 	public RuntimeAnimatorController animator;
+	public RuntimeAnimatorController attackAnimator;
 
 	public CharacterInfo(string _name, characterTypes _type, string portraitName = default(string), string animatorName =  default(string))
 	{
@@ -48,6 +49,7 @@ public class CharacterInfo {
 		resistant = new List<characterTypes> ();
 		immune = new List<characterTypes> ();
 		FigureTypeBalances(type);
+		loadAttackAnimators (type);
 	
 	}
 	public CharacterInfo()
@@ -110,6 +112,51 @@ public class CharacterInfo {
 			break;
 
 		default:
+			break;
+		}
+	}
+
+	private void loadAttackAnimators(characterTypes type)
+	{
+		switch (type) {
+		case characterTypes.fire:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/FireBlast") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.water:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Water") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.grass:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Grass") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.ghost:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Ghost") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.normal:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Normal") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.electric:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Electric") as RuntimeAnimatorController;
+			break;
+
+		case characterTypes.psychic:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Psychic") as RuntimeAnimatorController;
+
+			break;
+
+		case characterTypes.fighting:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Fighting") as RuntimeAnimatorController;
+			break;
+		case characterTypes.rock:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Rock") as RuntimeAnimatorController;
+			break;
+
+		default:
+			attackAnimator = Resources.Load ("attacks/AttackAnimation/Fighting") as RuntimeAnimatorController;
 			break;
 		}
 	}

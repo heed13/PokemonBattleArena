@@ -69,6 +69,14 @@ public class Health : MonoBehaviour {
 	{
 		SoundPlayer.soundPlayer.playSound ("genericHurt", transform.position);
 	}
+	IEnumerator FlashOnHit()
+	{
+		Renderer r = GetComponent<Renderer> ();
+		Color orig = r.material.color;
+		r.material.color = Color.red;
+		yield return new WaitForSeconds (0.1f);
+		r.material.color = orig;
+	}
 	public void TakeDamage(Attack atk)
 	{
 		float appliedDmg = atk.damage;
@@ -86,6 +94,7 @@ public class Health : MonoBehaviour {
 		UpdateBar ();
 		ShowFloatingText (appliedDmg);
 		playHitSound (atk.type);
+		StartCoroutine ("FlashOnHit");
 		// Check Death
 		if (currentHP <= 0) {
 			// Kill object

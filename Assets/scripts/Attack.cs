@@ -10,5 +10,4 @@ public class Attack : MonoBehaviour {
 	public Action<Attack> hitCallback;
 	public Action<Attack> deathCallback;
 
-
 }

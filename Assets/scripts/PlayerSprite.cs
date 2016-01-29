@@ -71,6 +71,8 @@ public class PlayerSprite : MonoBehaviour {
 	
 		an.runtimeAnimatorController = info.animator;
 
+		ac.attackAnim = info.attackAnimator;
+
 	}
 
 

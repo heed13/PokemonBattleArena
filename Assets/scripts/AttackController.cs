@@ -20,6 +20,9 @@ public class AttackController : MonoBehaviour {
 	private float nextAttack = 0;
 	private Animator anim;
 	private bool attacking = false;
+	[HideInInspector]
+	public RuntimeAnimatorController attackAnim;
+
 
 	// Use this for initialization
 	void Start ()
@@ -52,6 +55,7 @@ public class AttackController : MonoBehaviour {
 
 	public void NormalAttack()
 	{
+		Debug.Log (attackAnim);
 		if (Time.time >= nextAttack) {
 			nextAttack = Time.time + attackDelay;
 
@@ -62,12 +66,12 @@ public class AttackController : MonoBehaviour {
 
 			for (int i = 0; i < projectiles.Count; i++) {
 				if (!projectiles [i].activeInHierarchy) {
-					SoundPlayer.soundPlayer.playSound ("psychicAttack", transform.position);
 					projectiles [i].transform.position = transform.position;
 					projectiles [i].transform.eulerAngles = new Vector3 (0, 0, deg);
 					projectiles [i].GetComponent<Attack> ().Attacker = gameObject;
 					projectiles [i].GetComponent<Attack> ().hitCallback = onhitCallback;
 					projectiles [i].GetComponent<Attack> ().deathCallback = onKillCallback;
+					projectiles [i].GetComponent<Animator> ().runtimeAnimatorController = attackAnim;
 					projectiles [i].SetActive (true);
 					break;
 				}

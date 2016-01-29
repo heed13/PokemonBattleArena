@@ -15,6 +15,7 @@ public class InGameCharacterSelection : MonoBehaviour {
 	{
 		selectedCharacterInfo = GameManager.gameManager.getSelectedPokemon ();
 		setButtons (selectedCharacterInfo);
+		SoundPlayer.soundPlayer.playMusic ("battleMusic");
 	}
 	void spawnCharacter(int index)
 	{
