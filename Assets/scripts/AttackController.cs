@@ -22,6 +22,8 @@ public class AttackController : MonoBehaviour {
 	private bool attacking = false;
 	[HideInInspector]
 	public RuntimeAnimatorController attackAnim;
+	[HideInInspector]
+	public CharacterInfo.characterTypes attackType;
 
 
 	// Use this for initialization
@@ -68,6 +70,7 @@ public class AttackController : MonoBehaviour {
 					projectiles [i].transform.position = transform.position;
 					projectiles [i].transform.eulerAngles = new Vector3 (0, 0, deg);
 					projectiles [i].GetComponent<Attack> ().Attacker = gameObject;
+					projectiles [i].GetComponent<Attack> ().type = attackType;
 					projectiles [i].GetComponent<Attack> ().hitCallback = onhitCallback;
 					projectiles [i].GetComponent<Attack> ().deathCallback = onKillCallback;
 					projectiles [i].GetComponent<Animator> ().runtimeAnimatorController = attackAnim;

@@ -11,8 +11,8 @@ public class Health : MonoBehaviour {
 	public float totalHP;
 
 	// Type Vars
-	public CharacterInfo.characterTypes weakAgainst;
-	public CharacterInfo.characterTypes resistantTo;
+	public List<CharacterInfo.characterTypes> weakAgainst;
+	public List<CharacterInfo.characterTypes> resistantTo;
 	private float weaknessMultiplier = 2.0f;
 	private float resistanceMultiplier = 0.5f;
 
@@ -82,9 +82,9 @@ public class Health : MonoBehaviour {
 		float appliedDmg = atk.damage;
 
 		// Figure out weak/resistant
-		if (atk.type == weakAgainst) {
+		if (weakAgainst.Contains(atk.type)){
 			appliedDmg *= weaknessMultiplier;
-		} else if (atk.type == resistantTo) {
+		} else if (resistantTo.Contains(atk.type)) {
 			appliedDmg *= resistanceMultiplier;
 		}
 

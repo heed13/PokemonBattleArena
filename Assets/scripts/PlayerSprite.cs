@@ -1,6 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
+[RequireComponent(typeof(MoveController))]
+[RequireComponent(typeof(AttackController))]
+[RequireComponent(typeof(TeamMember))]
+[RequireComponent(typeof(Health))]
+[RequireComponent(typeof(Experience))]
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class PlayerSprite : MonoBehaviour {
 	public string username;
 	public string nickname;
@@ -69,11 +79,16 @@ public class PlayerSprite : MonoBehaviour {
 		gameObject.tag = "Player";
 		pokemonName = info.name;
 	
+		// Set weaknesses/resistances
+		hp.weakAgainst = new List<CharacterInfo.characterTypes> (info.weak);
+		hp.resistantTo = new List<CharacterInfo.characterTypes> (info.resistant);
+
+		// Set animation controller
 		an.runtimeAnimatorController = info.animator;
 
+		// set attack sprites/animations
 		ac.attackAnim = info.attackAnimator;
-
-
+		ac.attackType = info.type;
 
 	}
 
