@@ -3,19 +3,30 @@ using System.Collections;
 
 public class SelfDestruct : MonoBehaviour {
 	public float selfDestructTime = 1.0f;
-	
+	public bool dontDestroy = false;
+
+	private float timeToDie = 0;
+
+	void Awake()
+	{
+		timeToDie = selfDestructTime;
+	}
 	// Update is called once per frame
 	void Update () 
 	{
-		selfDestructTime -= Time.deltaTime;
+		timeToDie -= Time.deltaTime;
 
-		if (selfDestructTime <= 0) {
+		if (timeToDie <= 0) {
+			timeToDie = selfDestructTime;
 			killMe();
 		}
 	}
 
 	void killMe()
 	{
-		Destroy(this.gameObject);
+		if (!dontDestroy)
+			Destroy (this.gameObject);
+		else
+			gameObject.SetActive (false);
 	}
 }
