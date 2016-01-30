@@ -48,7 +48,7 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	void Start()
 	{
 		// fetch pokemon data
-		characterInfoList = GameManager.gameManager.GetPokemonInfo();	
+		characterInfoList = PokemonInfoManager.manager.GetPokemonInfo();	
 		selectedCharacterInfoList = new List<PokemonInfo> (selectedMax);
 	}
 
@@ -192,8 +192,8 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	public void playGame()
 	{
 		SoundPlayer.soundPlayer.playSound ("MenuClick");
-		GameManager.gameManager.setSelectedPokemon (selectedCharacterInfoList);
-		GameManager.gameManager.startGame ();
+		PokemonInfoManager.manager.setSelectedPokemon (selectedCharacterInfoList);
+		GameManager.manager.startGame ();
 	}
 
 	// Add Characters functions, these exist because the GUI system wont take params... freaking lame. I could build a better one... i just... dont have the time.

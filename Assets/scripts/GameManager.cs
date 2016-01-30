@@ -4,35 +4,33 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
-	public static GameManager gameManager;
-	public string test;
-	public PlayerInfo player;
-	private List<PokemonInfo> selectedSixPokemonInfo;
+	public static GameManager manager;
+	public string version = "v0.0.1";
 
-	// Use this for initialization
+	public PlayerInfo player;
+
 	void Awake()
 	{
 		player = new PlayerInfo ();
 		// If game control doesn't exist, this is it
-		if (gameManager == null) {
-			gameManager = this;
+		if (manager == null) {
+			manager = this;
 			DontDestroyOnLoad (gameObject);
 			// If game control exists, destory this
-		} else if (gameManager != this) {
+		} else if (manager != this) {
 			Destroy(gameObject);
 		}
-	}
 
-	// Loading Screen
-	void OnGUI()
-	{
 	}
-
+		
+	/// <summary>
+	/// Saves the username. Please move this somewhere else
+	/// </summary>
+	/// <param name="username">Username.</param>
 	public void saveUsername(string username)
 	{
 		player.username = username;
 		player.nickname = username;
-		test = username;
 	}
 
 	public void startGame()
@@ -40,30 +38,8 @@ public class GameManager : MonoBehaviour {
 		// TODO: save a search game type option to pass into this 
 		SceneManager.LoadScene("SCENE");
 	}
-	public void setSelectedPokemon(List<PokemonInfo> info)
-	{
-		selectedSixPokemonInfo = info;
-	}
-	public List<PokemonInfo> getSelectedPokemon()
-	{
-		return selectedSixPokemonInfo;
-	}
 
-	public List<PokemonInfo> GetPokemonInfo()
-	{
-		List<PokemonInfo> info = new List<PokemonInfo> ();
 
-		info.Add(PokemonInfoHandler.create("Charmander",pokemonType.fire));
-		info.Add(PokemonInfoHandler.create("Bulbasaur",pokemonType.grass));
-		info.Add(PokemonInfoHandler.create("Abra",pokemonType.psychic));
-		info.Add(PokemonInfoHandler.create("Gastly",pokemonType.ghost));
-		info.Add(PokemonInfoHandler.create("Geodude",pokemonType.rock));
-		info.Add(PokemonInfoHandler.create("Machop",pokemonType.fighting,"machop_port","machop_anim"));
-		info.Add(PokemonInfoHandler.create("Meowth",pokemonType.normal));
-		info.Add(PokemonInfoHandler.create("Pikachu",pokemonType.electric));
-		info.Add(PokemonInfoHandler.create("Squirtle",pokemonType.water));
 
-		return info;
 
-	}
 }

@@ -37,7 +37,7 @@ public class SettingsMenu : MonoBehaviour {
 
 	public void saveInfo()
 	{
-		GameManager.gameManager.saveUsername (usernameTextbox.text); // todo gm shouldn't be in charge of this
+		GameManager.manager.saveUsername (usernameTextbox.text); // todo gm shouldn't be in charge of this
 		SoundPlayer.soundPlayer.setMusicVolume(musicVolumeSlider.value);
 		SoundPlayer.soundPlayer.setSoundEffectsVolume(soundEffectsVolumeSlider.value);
 

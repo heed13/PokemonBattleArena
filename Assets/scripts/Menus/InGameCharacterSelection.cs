@@ -12,7 +12,7 @@ public class InGameCharacterSelection : MonoBehaviour {
 
 	void Start()
 	{
-		selectedCharacterInfo = GameManager.gameManager.getSelectedPokemon ();
+		selectedCharacterInfo = PokemonInfoManager.manager.getSelectedPokemon ();
 		setButtons (selectedCharacterInfo);
 	}
 
@@ -31,6 +31,7 @@ public class InGameCharacterSelection : MonoBehaviour {
 
 	public void showSelectionMenu()
 	{
+		Debug.Log ("oh okay");
 		window.gameObject.SetActive (true);
 		background.gameObject.SetActive (true);
 	}

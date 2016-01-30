@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameMode : MonoBehaviour
+public class GameMode : Photon.MonoBehaviour
 {
 	public static GameMode gameMode;
 
@@ -15,6 +15,12 @@ public class GameMode : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
+
+	public virtual void connectToLobby()
+	{
+		NetworkManager.manager.JoinLobby ();
+	}
+
 	public virtual void spawnMyCharacter (PokemonInfo info)
 	{
 	}

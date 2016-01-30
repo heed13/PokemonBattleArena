@@ -6,6 +6,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(TeamMember), typeof(Animator))]
 public class AttackController : MonoBehaviour
 {
+	public const string animAttackingParam = "attacking";
 	// Public vars
 	public GameObject projectile; // This should be the same for everyone. We load info to it dynamically
 	public float attackDelay = 0.5f; // How many times per second can this person attack?
@@ -21,7 +22,6 @@ public class AttackController : MonoBehaviour
 	public PokemonInfo pokemonInfo; // pokemon info, cached for quick access
 
 	// Private Vars
-	private const string attackingAnimParameter = "attacking";
 	private int teamId; // team id this character is on. Cached for quick access
 	private Animator anim; // animator, used to display attack animations
 	private List<Projectile> projectiles; // todo Remove this?
@@ -39,7 +39,7 @@ public class AttackController : MonoBehaviour
 
 	void Start()
 	{
-		playerInfo = GameManager.gameManager.player;
+		playerInfo = GameManager.manager.player;
 	}
 		
 	void Update()
@@ -116,7 +116,7 @@ public class AttackController : MonoBehaviour
 	}
 	public void SetAttacking(bool val)
 	{
-		anim.SetBool (attackingAnimParameter, val);
+		anim.SetBool (animAttackingParam, val);
 		attacking = val;
 	}
 

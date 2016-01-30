@@ -68,12 +68,13 @@ public class PlayerSprite : MonoBehaviour {
 	}
 	public void prepSprite(PokemonInfo pokemon, PlayerInfo player = default(PlayerInfo))
 	{
+		// todo: only the master client really cares about this.. right? or wrong for prediction purposes?
 		// Set weaknesses/resistances
 		hp.weakAgainst = new List<pokemonType> (pokemon.weak);
 		hp.resistantTo = new List<pokemonType> (pokemon.resistant);
 
 		// Set animation controller
-		an.runtimeAnimatorController = pokemon.animator;
+		an.runtimeAnimatorController = pokemon.animator; // todo, all clients care about this
 
 		// set attack controller info
 		ac.pokemonInfo = pokemon;
