@@ -26,6 +26,9 @@ public struct PokemonInfo
 	public List<pokemonType> immune; // what the pokemon is immune to. PS I hate that this exists
 
 	public Texture portrait; // mug shot of the pokemon
+	public Texture typeIcon; // icon of this pokemons type
+	public List<Texture> weakIcons; // icons of this pokemons weaknesses
+	public List<Texture> resistantIcons; // icons of this pokemons resistances
 	public RuntimeAnimatorController animator; // what animator does this pokemon use?
 	public RuntimeAnimatorController attackAnimator; // what attack does this pokemon use? todo: this will probably change to some kind of dict later on
 }
@@ -56,7 +59,22 @@ public class PokemonInfoHandler
 		info.resistant = new List<pokemonType> ();
 		info.immune = new List<pokemonType> ();
 		FigureTypeBalances(ref info, info.type);
+
+		// get attack animators
 		loadAttackAnimators (ref info, info.type);
+
+
+		// get icons
+		info.typeIcon = (Texture)Resources.Load("images/icons/bigCircle/"+_type.ToString().ToLower());
+		info.weakIcons = new List<Texture> ();
+		info.resistantIcons = new List<Texture> ();
+		for (int i = 0; i < info.weak.Count; i++) {
+			info.weakIcons.Add ((Texture)Resources.Load ("images/icons/bigCircle/" + info.weak [i].ToString ().ToLower ()));
+		}
+		for (int i = 0; i < info.resistant.Count; i++) {
+			info.resistantIcons.Add ((Texture)Resources.Load ("images/icons/bigCircle/" + info.resistant [i].ToString ().ToLower ()));
+		}
+
 		return info;
 	}
 

@@ -18,6 +18,7 @@ public class InGameCharacterSelection : MonoBehaviour {
 	}
 	void spawnCharacter(int index)
 	{
+		
 		GameObject playerGO = (GameObject)Instantiate (prefab, Vector3.zero, Quaternion.identity);
 		playerGO.GetComponent<PlayerSprite> ().prepSprite (selectedCharacterInfo [index]);
 		SoundPlayer.soundPlayer.playMusic ("battleMusic",0.1f);

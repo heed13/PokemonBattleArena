@@ -161,11 +161,21 @@ public class CharacterSelectionMenu : MonoBehaviour {
 
 	void setInfo (pokemonType type)
 	{
+		return;
 		//set info
 		characterInfoList.ForEach (delegate (PokemonInfo obj) {
 			if (obj.type == type) {
 				pokemonNameLbl.text = obj.name;
 				pokemonTypeLbl.text = obj.type.ToString();
+				if (obj.weakIcons.Count >= 1) 
+					pokemonWeak1.style.main.texture = obj.weakIcons[0];
+				if (obj.weakIcons.Count > 1) 
+					pokemonWeak2.style.main.texture = obj.weakIcons[1];
+				if (obj.resistantIcons.Count >= 1) 
+					pokemonResistant1.style.main.texture = obj.resistantIcons[0];
+				if (obj.resistantIcons.Count > 1) 
+					pokemonResistant2.style.main.texture = obj.resistantIcons[1];
+
 			}
 		});
 	}

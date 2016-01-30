@@ -76,10 +76,9 @@ public class Health : MonoBehaviour {
 	IEnumerator FlashOnHit()
 	{
 		Renderer r = GetComponent<Renderer> ();
-		Color orig = r.material.color;
 		r.material.color = Color.red;
 		yield return new WaitForSeconds (0.1f);
-		r.material.color = orig;
+		r.material.color = Color.white;
 	}
 
 

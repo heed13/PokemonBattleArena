@@ -64,7 +64,6 @@ public class PlayerSprite : MonoBehaviour {
 			GameObject.Find ("InstantGUI").SetActive (true);
 			GameObject.Find ("InstantGUI").transform.FindChild ("background").gameObject.SetActive (true);
 			GameObject.Find ("InstantGUI").transform.FindChild ("Window").gameObject.SetActive (true);
-			Destroy (gameObject);
 		}
 	}
 	public void prepSprite(PokemonInfo info)
