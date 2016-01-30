@@ -11,8 +11,8 @@ public class Health : MonoBehaviour {
 	public float totalHP;
 
 	// Type Vars
-	public List<CharacterInfo.characterTypes> weakAgainst;
-	public List<CharacterInfo.characterTypes> resistantTo;
+	public List<pokemonType> weakAgainst;
+	public List<pokemonType> resistantTo;
 	private float weaknessMultiplier = 2.0f;
 	private float resistanceMultiplier = 0.5f;
 
@@ -23,29 +23,30 @@ public class Health : MonoBehaviour {
 	// Floating Text Vars
 	public Transform FloatingTextPrefab;
 
-
-
-
 	void Start()
 	{
 		currentHP = totalHP;
 	}
+
 	void LateUpdate()
 	{
 		if (tracksObj) {
 			TrackBar ();
 		}
 	}
+
 	void UpdateBar()
 	{
 		if (bar != null)
 			bar.UpdateValue ((int)currentHP, (int)totalHP);
 	}
+
 	void HideBar()
 	{
 		if (bar != null)
 			bar.gameObject.SetActive (false);
 	}
+
 	void ShowFloatingText(float amount)
 	{
 		Transform obj = EZ_PoolManager.Spawn (FloatingTextPrefab, transform.position, Quaternion.identity);
@@ -53,22 +54,25 @@ public class Health : MonoBehaviour {
 			obj.GetComponentInChildren<TextMesh> ().text = amount.ToString ("0");
 		}
 	}
+
 	void TrackBar()
 	{
 		var wantedPos = Camera.main.WorldToScreenPoint (transform.position);
 		wantedPos.y += 25;
 		bar.transform.position = wantedPos;
 	}
+
 	void Die()
 	{
 		gameObject.SetActive (false);
 		HideBar ();
 	}
 		
-	void playHitSound(CharacterInfo.characterTypes type)
+	void playHitSound(pokemonType type)
 	{
 		SoundPlayer.soundPlayer.playSound ("genericHurt", transform.position);
 	}
+
 	IEnumerator FlashOnHit()
 	{
 		Renderer r = GetComponent<Renderer> ();
@@ -77,39 +81,47 @@ public class Health : MonoBehaviour {
 		yield return new WaitForSeconds (0.1f);
 		r.material.color = orig;
 	}
-	public void TakeDamage(Attack atk)
+
+
+	// -------- Public Functions --------
+	public void TakeDamage(AttackInfo atk)
 	{
+		HitInfo hitInfo = new HitInfo(); // Create new hitInfo to pass back to attacker
 		float appliedDmg = atk.damage;
 
-		// Figure out weak/resistant
-		if (weakAgainst.Contains(atk.type)){
+		// Figure out weaknesses
+		if (weakAgainst.Contains(atk.type)) {
 			appliedDmg *= weaknessMultiplier;
-		} else if (resistantTo.Contains(atk.type)) {
+			hitInfo.weaknessDmg = appliedDmg - atk.damage;
+		} // Figre out Resitances
+		else if (resistantTo.Contains(atk.type)) {
 			appliedDmg *= resistanceMultiplier;
+			hitInfo.weaknessDmg =  atk.damage - appliedDmg;
 		}
+
+		// Set total DMG
+		hitInfo.totalDmgDealt = appliedDmg;
 
 		// Apply damage
 		currentHP -= appliedDmg;
-		atk.totalDmgDone = appliedDmg;
+
+		// Let others know -- display stuff and whatnot
 		UpdateBar ();
-		ShowFloatingText (appliedDmg);
 		playHitSound (atk.type);
+		atk.hitCallback (hitInfo);
+		ShowFloatingText (appliedDmg);
 		StartCoroutine ("FlashOnHit");
+
 		// Check Death
 		if (currentHP <= 0) {
-			// Kill object
+			
+			// Set vars, call onHit of attacker
 			currentHP = 0;
-
-			// Give exp
-			atk.Attacker.GetComponent<Experience> ().gainExperience (GetComponent<Experience> ().dropExperience ());
+			hitInfo.killed = true;
+			atk.killCallback (hitInfo);
 
 			// End our misery
 			Die ();
 		}
-
-		// Any callbacks the other player might have
-		atk.hitCallback (atk);
-		atk.deathCallback (atk);
-
 	}
 }

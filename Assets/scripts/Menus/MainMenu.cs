@@ -4,18 +4,29 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour {
 	public string mainMenuMusic = "MainMenuMusic";
+
+
 	void Start()
 	{
-		SoundPlayer.soundPlayer.playMusic (mainMenuMusic,0.0f);
+		SoundPlayer.soundPlayer.setMusicVolume (75.0f);
+		SoundPlayer.soundPlayer.setSoundEffectsVolume (75.0f);
+		SoundPlayer.soundPlayer.playMusic (mainMenuMusic,1.0f);
 	}
+		
+		
 	public void QuickPlay()
 	{
-//		SceneManager.LoadScene ("SCENE");
-//		Application.LoadLevel (1); // outdated
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
 	}
 
+	public void SettingsBtnPressed()
+	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
+	}
 	public void Quit()
 	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
+
 		Debug.Log ("quitting...");
 		Application.Quit ();
 	}

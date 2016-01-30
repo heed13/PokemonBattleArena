@@ -43,8 +43,39 @@ public class SoundPlayer : MonoBehaviour {
 
 		music = GetComponent<AudioSource> ();
 	}
+		
+	void setMusic(string key, AudioClip[] clips)
+	{
+		music.clip = clips [Random.Range (0, clips.Length)];
+		music.loop = true;
+		music.volume = musicVolume;
+	}
+		
+	IEnumerator FadeMusic(AudioSource audio, float timer, Fade fadeType, System.Action<bool> onComplete = null)
+	{
+		float start = fadeType == Fade.In ? 0.0f : musicVolume;
+		float end = fadeType == Fade.In ? musicVolume : 0.0f;
+		float i = 0.0f;
+		float step = musicVolume / timer * Time.deltaTime;
 
-	public void playSound(string key, Vector2 location)
+		if (fadeType == Fade.In)
+			audio.Play ();
+		
+		while (i < 1.0) {
+			i += step;
+			audio.volume = Mathf.Lerp (start, end, i);
+			yield return 0;
+		}
+		if (fadeType == Fade.Out)
+			audio.Stop ();
+
+		if (onComplete != null)
+			onComplete (true);
+		yield return null;
+	}
+
+	// ------ Public Functions -------
+	public void playSound(string key, Vector2 location = default(Vector2))
 	{
 		AudioClip[] clips = null;
 		if (soundBites.ContainsKey (key)) {
@@ -70,15 +101,15 @@ public class SoundPlayer : MonoBehaviour {
 			clips = soundBites [key];
 		}
 		if (clips != null) {
-			if (music == null) {
+			if (music && !musicIsPlaying()) {
 				setMusic (key, clips);
 				StartCoroutine(FadeMusic(music,_fadeTime,Fade.In));
 			}
 			else {
-				StartCoroutine (FadeMusic (music, _fadeTime, Fade.Out, (bool value) => {
+				stopMusic(_fadeTime, (bool value) => {
 					setMusic(key, clips);
 					StartCoroutine (FadeMusic (music, _fadeTime, Fade.In));
-				}));
+				});
 			}
 
 		}
@@ -92,35 +123,20 @@ public class SoundPlayer : MonoBehaviour {
 	{
 		return music.isPlaying;
 	}
-	void setMusic(string key, AudioClip[] clips)
+
+	public void setMusicVolume(float vol) 
 	{
-		music.clip = clips [Random.Range (0, clips.Length)];
-		music.loop = true;
-		music.volume = musicVolume;
+		StopAllCoroutines ();
+		if (vol > 1)
+			vol = vol / 100;
+		musicVolume = vol;
+		music.volume = vol;
 	}
-
-
-	IEnumerator FadeMusic(AudioSource audio, float timer, Fade fadeType, System.Action<bool> onComplete = null)
+	public void setSoundEffectsVolume(float vol)
 	{
-		float start = fadeType == Fade.In ? 0.0f : musicVolume;
-		float end = fadeType == Fade.In ? musicVolume : 0.0f;
-		float i = 0.0f;
-		float step = musicVolume / timer * Time.deltaTime;
-
-		if (fadeType == Fade.In)
-			audio.Play ();
-		
-		while (i < musicVolume) {
-			i += step;
-			audio.volume = Mathf.Lerp (start, end, i);
-			yield return 0;
-		}
-		if (fadeType == Fade.Out)
-			audio.Stop ();
-
-		if (onComplete != null)
-			onComplete (true);
-		yield return null;
+		if (vol > 1)
+			vol = vol / 100;
+		soundVolume = vol;
 	}
 
 }

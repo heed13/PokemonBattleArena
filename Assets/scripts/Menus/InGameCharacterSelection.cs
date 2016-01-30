@@ -9,7 +9,7 @@ public class InGameCharacterSelection : MonoBehaviour {
 
 	public InstantGuiButton[] btns;
 
-	List<CharacterInfo> selectedCharacterInfo;
+	List<PokemonInfo> selectedCharacterInfo;
 
 	void Start()
 	{
@@ -20,14 +20,12 @@ public class InGameCharacterSelection : MonoBehaviour {
 	{
 		GameObject playerGO = (GameObject)Instantiate (prefab, Vector3.zero, Quaternion.identity);
 		playerGO.GetComponent<PlayerSprite> ().prepSprite (selectedCharacterInfo [index]);
-		SoundPlayer.soundPlayer.playMusic ("battleMusic",0.2f);
+		SoundPlayer.soundPlayer.playMusic ("battleMusic",0.1f);
 
 	}
 
-	public void setButtons(List<CharacterInfo> info)
+	public void setButtons(List<PokemonInfo> info)
 	{
-		Debug.Log (info.Count);
-		Debug.Log (btns.Length);
 		for (int i = 0; i < info.Count; i++) {
 			btns [i].style.main.texture = info [i].portrait;
 			btns [i].onPressed.message = "spawn"+i.ToString();

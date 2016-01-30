@@ -18,12 +18,12 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	public InstantGuiButton[] selectedBtns;
 	private int currentSelectedIndex = 0;
 
-	List<CharacterInfo.characterTypes> selectedSixTypes;
+	List<pokemonType> selectedSixTypes;
 	List<InstantGuiButton> selectedSixBtns;
 	int selectedMax = 6;
 
-	List<CharacterInfo> characterInfoList;
-	List<CharacterInfo> selectedCharacterInfoList;
+	List<PokemonInfo> characterInfoList;
+	List<PokemonInfo> selectedCharacterInfoList;
 
 
 	public InstantGuiElement pokemonNameLbl;
@@ -42,18 +42,20 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	// --------------------------- Functions ---------------------------
 	void Awake()
 	{
-		selectedSixTypes = new List<CharacterInfo.characterTypes> (selectedMax);
+		selectedSixTypes = new List<pokemonType> (selectedMax);
 		selectedSixBtns = new List<InstantGuiButton> (selectedMax);
 	}
 	void Start()
 	{
 		// fetch pokemon data
 		characterInfoList = GameManager.gameManager.GetPokemonInfo();	
-		selectedCharacterInfoList = new List<CharacterInfo> (selectedMax);
+		selectedCharacterInfoList = new List<PokemonInfo> (selectedMax);
 	}
 
 	void popCharacter(int index)
 	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
+
 		if (index < selectedSixTypes.Count) {
 			//put image back
 			Debug.Log ("pop type: " + selectedSixTypes[index].ToString ());
@@ -75,8 +77,10 @@ public class CharacterSelectionMenu : MonoBehaviour {
 		}
 	}
 
-	void setCharacter(CharacterInfo.characterTypes type)
+	void setCharacter(pokemonType type)
 	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
+
 		// character was picked, need to add it to array and set its image
 		if (selectedSixTypes.Count < selectedMax && !selectedSixTypes.Contains(type)) {
 			selectedSixTypes.Add (type);
@@ -93,7 +97,7 @@ public class CharacterSelectionMenu : MonoBehaviour {
 
 	}
 
-	void moveImage(CharacterInfo.characterTypes type, bool toSelected, int index = -1)
+	void moveImage(pokemonType type, bool toSelected, int index = -1)
 	{
 		if (index == -1)
 			index = currentSelectedIndex;
@@ -101,31 +105,31 @@ public class CharacterSelectionMenu : MonoBehaviour {
 		InstantGuiButton typeBtn = null;
 
 		switch (type) {
-		case CharacterInfo.characterTypes.electric:
+		case pokemonType.electric:
 			typeBtn = electricBtn;
 			break;
-		case CharacterInfo.characterTypes.psychic:
+		case pokemonType.psychic:
 			typeBtn = psychicBtn;
 			break;
-		case CharacterInfo.characterTypes.fire:
+		case pokemonType.fire:
 			typeBtn = fireBtn;
 			break;
-		case CharacterInfo.characterTypes.ghost:
+		case pokemonType.ghost:
 			typeBtn = ghostBtn;
 			break;
-		case CharacterInfo.characterTypes.fighting:
+		case pokemonType.fighting:
 			typeBtn = fightingBtn;
 			break;
-		case CharacterInfo.characterTypes.rock:
+		case pokemonType.rock:
 			typeBtn = rockBtn;
 			break;
-		case CharacterInfo.characterTypes.grass:
+		case pokemonType.grass:
 			typeBtn = grassBtn;
 			break;
-		case CharacterInfo.characterTypes.water:
+		case pokemonType.water:
 			typeBtn = waterBtn;
 			break;
-		case CharacterInfo.characterTypes.normal:
+		case pokemonType.normal:
 			typeBtn = normalBtn;
 			break;
 		default:
@@ -150,25 +154,25 @@ public class CharacterSelectionMenu : MonoBehaviour {
 		b.style.main.texture = tmpTexture;
 	}
 
-	void getTypeIcon(CharacterInfo.characterTypes type)
+	void getTypeIcon(pokemonType type)
 	{
 
 	}
 
-	void setInfo (CharacterInfo.characterTypes type)
+	void setInfo (pokemonType type)
 	{
 		//set info
-		characterInfoList.ForEach (delegate (CharacterInfo obj) {
+		characterInfoList.ForEach (delegate (PokemonInfo obj) {
 			if (obj.type == type) {
 				pokemonNameLbl.text = obj.name;
 				pokemonTypeLbl.text = obj.type.ToString();
 			}
 		});
 	}
-	public void moveInfoToSelected(CharacterInfo.characterTypes type)
+	public void moveInfoToSelected(pokemonType type)
 	{
 		//set info
-		characterInfoList.ForEach (delegate (CharacterInfo obj) {
+		characterInfoList.ForEach (delegate (PokemonInfo obj) {
 			if (obj.type == type) {
 				selectedCharacterInfoList.Add(obj);
 			}
@@ -177,6 +181,7 @@ public class CharacterSelectionMenu : MonoBehaviour {
 
 	public void playGame()
 	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
 		GameManager.gameManager.setSelectedPokemon (selectedCharacterInfoList);
 		GameManager.gameManager.startGame ();
 	}
@@ -184,47 +189,47 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	// Add Characters functions, these exist because the GUI system wont take params... freaking lame. I could build a better one... i just... dont have the time.
 	public void setFire()
 	{
-		setCharacter (CharacterInfo.characterTypes.fire);
+		setCharacter (pokemonType.fire);
 	}
 	public void setRock()
 	{
-		setCharacter (CharacterInfo.characterTypes.rock);
+		setCharacter (pokemonType.rock);
 	}
 	public void setFighting()
 	{
-		setCharacter (CharacterInfo.characterTypes.fighting);
+		setCharacter (pokemonType.fighting);
 	}
 	public void setElectric()
 	{
-		setCharacter (CharacterInfo.characterTypes.electric);
+		setCharacter (pokemonType.electric);
 	}
 	public void setWater()
 	{
-		setCharacter (CharacterInfo.characterTypes.water);
+		setCharacter (pokemonType.water);
 	}
 	public void setGrass()
 	{
-		setCharacter (CharacterInfo.characterTypes.grass);
+		setCharacter (pokemonType.grass);
 	}
 	public void setPsychic()
 	{
-		setCharacter (CharacterInfo.characterTypes.psychic);
+		setCharacter (pokemonType.psychic);
 	}
 	public void setGhost()
 	{
-		setCharacter (CharacterInfo.characterTypes.ghost);
+		setCharacter (pokemonType.ghost);
 	}
 	public void setNormal()
 	{
-		setCharacter (CharacterInfo.characterTypes.normal);
+		setCharacter (pokemonType.normal);
 	}
 	public void setRandom()
 	{
-		CharacterInfo.characterTypes type = (CharacterInfo.characterTypes)Random.Range (0, (int)CharacterInfo.characterTypes.count);
+		pokemonType type = (pokemonType)Random.Range (0, (int)pokemonType.count);
 		do {
-			CharacterInfo.characterTypes tmp = type;
-			type = (CharacterInfo.characterTypes)Random.Range (0, (int)CharacterInfo.characterTypes.count);
-			if (type == CharacterInfo.characterTypes.none) {
+			pokemonType tmp = type;
+			type = (pokemonType)Random.Range (0, (int)pokemonType.count);
+			if (type == pokemonType.none) {
 				type = tmp;
 			}
 		}while (selectedSixTypes.Contains(type) && selectedSixTypes.Count < selectedMax);
@@ -255,5 +260,10 @@ public class CharacterSelectionMenu : MonoBehaviour {
 		popCharacter (5);
 	}
 
+
+	public void HoldOnBtnPressed()
+	{
+		SoundPlayer.soundPlayer.playSound ("MenuClick");
+	}
 
 }

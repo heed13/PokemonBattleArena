@@ -11,11 +11,8 @@ using System.Collections.Generic;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(PlayerScore))]
 public class PlayerSprite : MonoBehaviour {
-	public string username;
-	public string nickname;
-	public string pokemonName;
-	public int score;
 
 	private bool colliderSet = false;
 	// we pretty much need to know about everything... so... here it goes
@@ -67,29 +64,22 @@ public class PlayerSprite : MonoBehaviour {
 			GameObject.Find ("InstantGUI").SetActive (true);
 			GameObject.Find ("InstantGUI").transform.FindChild ("background").gameObject.SetActive (true);
 			GameObject.Find ("InstantGUI").transform.FindChild ("Window").gameObject.SetActive (true);
-
-
-
 			Destroy (gameObject);
 		}
 	}
-	public void prepSprite(CharacterInfo info)
+	public void prepSprite(PokemonInfo info)
 	{
-		Debug.Log (info.animator);
 		gameObject.tag = "Player";
-		pokemonName = info.name;
 	
 		// Set weaknesses/resistances
-		hp.weakAgainst = new List<CharacterInfo.characterTypes> (info.weak);
-		hp.resistantTo = new List<CharacterInfo.characterTypes> (info.resistant);
+		hp.weakAgainst = new List<pokemonType> (info.weak);
+		hp.resistantTo = new List<pokemonType> (info.resistant);
 
 		// Set animation controller
 		an.runtimeAnimatorController = info.animator;
 
-		// set attack sprites/animations
-		ac.attackAnim = info.attackAnimator;
-		ac.attackType = info.type;
-
+		// set attack controller info
+		ac.pokemonInfo = info;
 	}
 
 
