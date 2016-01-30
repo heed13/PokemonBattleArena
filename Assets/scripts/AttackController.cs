@@ -37,19 +37,11 @@ public class AttackController : MonoBehaviour
 		teamId = GetComponent<TeamMember> ().teamId;
 	}
 
-	void Start ()
+	void Start()
 	{
-		// Prep projectile pool
-		projectiles = new List<Projectile> ();
-		for (int i = 0; i < poolAmount; i++) {
-			GameObject obj = (GameObject)Instantiate (projectile);
-			obj.GetComponent<Projectile> ().teamId = teamId;
-			obj.SetActive (false);
-			projectiles.Add (obj.GetComponent<Projectile>());
-		}
 		playerInfo = GameManager.gameManager.player;
 	}
-
+		
 	void Update()
 	{
 		// Check if we are attacking
@@ -84,8 +76,6 @@ public class AttackController : MonoBehaviour
 		float deg = getMousePos (); // get mouse position
 		projectile.transform.position = transform.position; // Set position to ours
 		projectile.transform.eulerAngles = new Vector3 (0, 0, deg); // set rotation to the mouse
-		projectile.atkInfo = prepareNormalAttack(); // pass attack info
-		projectile.GetComponent<Animator> ().runtimeAnimatorController = pokemonInfo.attackAnimator; // set the animation of the projectile
 		projectile.gameObject.SetActive (true); // mark it as active
 	}
 	AttackInfo prepareNormalAttack()
@@ -100,8 +90,30 @@ public class AttackController : MonoBehaviour
 		atk.killCallback = onKillCallback;
 		return atk;
 	}
-
+	void setProjectileInfo(Projectile proj)
+	{
+		proj.teamId = teamId; // set team id
+		proj.atkInfo = prepareNormalAttack (); // pass attack info
+		proj.GetComponent<Animator> ().runtimeAnimatorController = pokemonInfo.attackAnimator; // set animator
+		proj.gameObject.SetActive (false); // deactivate
+	}
 	// ------------ Public Functions ------------
+	public void prepareProjectilePool ()
+	{
+		if (projectiles == null) {
+			// Prep projectile pool
+			projectiles = new List<Projectile> ();
+			for (int i = 0; i < poolAmount; i++) {
+				GameObject obj = (GameObject)Instantiate (projectile);
+				setProjectileInfo (obj.GetComponent<Projectile> ());
+				projectiles.Add (obj.GetComponent<Projectile> ()); // add to pool
+			}
+		} else {
+			for (int i = 0; i < projectiles.Count; i++) {
+				setProjectileInfo (projectiles [i]);
+			}
+		}
+	}
 	public void SetAttacking(bool val)
 	{
 		anim.SetBool (attackingAnimParameter, val);

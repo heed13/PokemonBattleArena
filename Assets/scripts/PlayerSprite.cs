@@ -66,19 +66,18 @@ public class PlayerSprite : MonoBehaviour {
 			GameObject.Find ("InstantGUI").transform.FindChild ("Window").gameObject.SetActive (true);
 		}
 	}
-	public void prepSprite(PokemonInfo info)
+	public void prepSprite(PokemonInfo pokemon, PlayerInfo player = default(PlayerInfo))
 	{
-		gameObject.tag = "Player";
-	
 		// Set weaknesses/resistances
-		hp.weakAgainst = new List<pokemonType> (info.weak);
-		hp.resistantTo = new List<pokemonType> (info.resistant);
+		hp.weakAgainst = new List<pokemonType> (pokemon.weak);
+		hp.resistantTo = new List<pokemonType> (pokemon.resistant);
 
 		// Set animation controller
-		an.runtimeAnimatorController = info.animator;
+		an.runtimeAnimatorController = pokemon.animator;
 
 		// set attack controller info
-		ac.pokemonInfo = info;
+		ac.pokemonInfo = pokemon;
+		ac.prepareProjectilePool ();
 	}
 
 

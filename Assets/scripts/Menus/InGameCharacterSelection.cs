@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class InGameCharacterSelection : MonoBehaviour {
-	public GameObject prefab; // todo this doesn't belong here
 	public InstantGuiElement window;
 	public InstantGuiElement background;
 
@@ -16,13 +15,10 @@ public class InGameCharacterSelection : MonoBehaviour {
 		selectedCharacterInfo = GameManager.gameManager.getSelectedPokemon ();
 		setButtons (selectedCharacterInfo);
 	}
+
 	void spawnCharacter(int index)
 	{
-		
-		GameObject playerGO = (GameObject)Instantiate (prefab, Vector3.zero, Quaternion.identity);
-		playerGO.GetComponent<PlayerSprite> ().prepSprite (selectedCharacterInfo [index]);
-		SoundPlayer.soundPlayer.playMusic ("battleMusic",0.1f);
-
+		GameMode.gameMode.spawnMyCharacter (selectedCharacterInfo [index]);
 	}
 
 	public void setButtons(List<PokemonInfo> info)
