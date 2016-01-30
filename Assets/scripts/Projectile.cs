@@ -24,8 +24,14 @@ public class Projectile : MonoBehaviour {
 			// if object is not an enemy
 			if (col.gameObject.CompareTag ("Enemy")) {
 				col.gameObject.BroadcastMessage ("TakeDamage", atkInfo);
-			} else if (col.gameObject.CompareTag ("Player") || col.gameObject.CompareTag ("Projectile")) {
-				return;
+			} else {
+				switch (col.gameObject.tag) {
+				case "Player":
+				case "Projectile":
+				case "UnCollidable":
+					return;
+					break;
+				}
 			}
 			expired = true;
 			SendMessage ("Destroy", 0.2f);
