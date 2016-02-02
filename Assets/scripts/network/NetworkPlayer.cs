@@ -4,6 +4,7 @@ using System.Collections;
 public class NetworkPlayer : Photon.MonoBehaviour
 {
 	private Animator anim;
+	private AttackController ac;
 
 	bool isAlive = true;
 	Vector3 lastKnownPos;
@@ -12,11 +13,12 @@ public class NetworkPlayer : Photon.MonoBehaviour
 	void Start()
 	{
 		anim = GetComponent<Animator> ();
+		ac = GetComponent<AttackController> ();
 		if (photonView.isMine) {
 			GetComponent<PlayerInput> ().enabled = true;
 			GetComponent<PlayerScore> ().enabled = true;
 		} else {
-			StartCoroutine ("moveToPosition");
+			//StartCoroutine ("moveToPosition");
 		}
 	}
 	
@@ -32,6 +34,8 @@ public class NetworkPlayer : Photon.MonoBehaviour
 			stream.SendNext (anim.GetFloat (MoveController.animDirXParam));
 			stream.SendNext (anim.GetFloat (MoveController.animDirYParam));
 			stream.SendNext (anim.GetFloat (MoveController.animRotationParam));
+			// Send attack info
+			stream.SendNext(ac.attacking);
 
 		} else {
 			// get position
@@ -42,14 +46,21 @@ public class NetworkPlayer : Photon.MonoBehaviour
 			anim.SetFloat(MoveController.animDirXParam, (float)stream.ReceiveNext ());
 			anim.SetFloat(MoveController.animDirYParam, (float)stream.ReceiveNext ());
 			anim.SetFloat(MoveController.animRotationParam, (float)stream.ReceiveNext ());
+			// Send attack info
+			ac.attacking = (bool)stream.ReceiveNext();
 		}
 
 	}
 
+	void Update()
+	{
+		if (!photonView.isMine) {
+			transform.position = Vector3.Lerp (transform.position, lastKnownPos, lerpSmoothing * Time.deltaTime);
+		}
+	}
 	IEnumerator moveToPosition()
 	{
 		while (isAlive) {
-			transform.position = Vector3.Lerp (transform.position, lastKnownPos, lerpSmoothing * Time.deltaTime);
 			yield return null;
 		}
 	}

@@ -26,7 +26,6 @@ public class FFAGameMode : GameMode
 			
 			//Thinking this call should be RPC'd so that master can do most of the tracking ??? maybe
 			GameObject playerGO = PhotonNetwork.Instantiate (playerPrefabName, Vector3.zero, Quaternion.identity, 0);
-			playerGO.GetComponent<TeamMember> ().teamId = currentTeamId++; // todo RPC this, var should be masters
 			playerGO.tag = "Player";
 			setCameraToFollowObject (playerGO.transform);
 			myCharacter = playerGO;
@@ -38,6 +37,7 @@ public class FFAGameMode : GameMode
 
 		myCharacter.transform.position = getRandomSpawnPoint (); // RPC?
 	}
+
 
 	public Vector3 getRandomSpawnPoint()
 	{
@@ -67,6 +67,7 @@ public class FFAGameMode : GameMode
 
 		// call prep sprite on the object
 		view.gameObject.GetComponent<PlayerSprite> ().prepSprite (PokemonInfoManager.manager.getInfoByPokemonName (pokemonName));
-			
+		view.gameObject.GetComponent<TeamMember> ().teamId = TeamMember.TeamFFA;
+		view.gameObject.GetComponent<AttackController> ().changeTeam ();
 	}
 }

@@ -4,13 +4,14 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(TeamMember), typeof(Animator))]
-public class AttackController : MonoBehaviour
+public class AttackController : Photon.MonoBehaviour
 {
 	public const string animAttackingParam = "attacking";
 	// Public vars
 	public GameObject projectile; // This should be the same for everyone. We load info to it dynamically
 	public float attackDelay = 0.5f; // How many times per second can this person attack?
 	public int poolAmount = 20; // how many projectiles should be allowed at any given time?
+	public bool attacking = false; // is this person currently attacking
 
 	[System.Serializable]
 	public class MyEventType : UnityEvent<HitInfo> { } // event type for a succesful hit/kill
@@ -28,7 +29,7 @@ public class AttackController : MonoBehaviour
 
 	// Private Attack vars
 	private float nextAttack = 0; // time that the attack becomes available
-	private bool attacking = false; // is this person currently attacking
+	public Vector3 otherPlayerAttackPos;
 
 	// ------------ Private Functions ------------
 	void Awake()
@@ -45,7 +46,7 @@ public class AttackController : MonoBehaviour
 	void Update()
 	{
 		// Check if we are attacking
-		if (attacking)
+		if (attacking && photonView.isMine)
 			NormalAttack ();
 	}
 		
@@ -55,14 +56,26 @@ public class AttackController : MonoBehaviour
 		if (Time.time >= nextAttack) {
 			nextAttack = Time.time + attackDelay;
 
-			// loop through projectiles to find one we can use, break on first available
-			for (int i = 0; i < projectiles.Count; i++) {
-				if (!projectiles [i].gameObject.activeInHierarchy) {
-					LaunchProjectile (projectiles [i]);
-					break;
-				}
+			float deg = getMousePos (); // get mouse position
+
+			photonView.RPC ("getAndLaunchProjectile", PhotonTargets.All, deg);
+
+		}
+	}
+
+	[PunRPC]
+	public void getAndLaunchProjectile(float rotationDeg)
+	{
+		Debug.Log (photonView.viewID.ToString () + " is attacking");
+		// loop through projectiles to find one we can use, break on first available
+		for (int i = 0; i < projectiles.Count; i++) {
+			if (!projectiles [i].gameObject.activeInHierarchy) {
+				LaunchProjectile (projectiles [i], rotationDeg);
+				break;
 			}
 		}
+
+		
 	}
 	float getMousePos()
 	{
@@ -71,12 +84,12 @@ public class AttackController : MonoBehaviour
 		Vector2 vec = new Vector2 (mousePos.x, mousePos.y) - new Vector2 (transform.position.x, transform.position.y);
 		return Mathf.Atan2 (vec.y, vec.x) * Mathf.Rad2Deg - 90;
 	}
-	void LaunchProjectile(Projectile projectile)
+	void LaunchProjectile(Projectile projectile, float deg)
 	{
-		float deg = getMousePos (); // get mouse position
 		projectile.transform.position = transform.position; // Set position to ours
 		projectile.transform.eulerAngles = new Vector3 (0, 0, deg); // set rotation to the mouse
 		projectile.gameObject.SetActive (true); // mark it as active
+		projectile.thrower = gameObject;
 	}
 	AttackInfo prepareNormalAttack()
 	{
@@ -116,8 +129,10 @@ public class AttackController : MonoBehaviour
 	}
 	public void SetAttacking(bool val)
 	{
-		anim.SetBool (animAttackingParam, val);
-		attacking = val;
+		if (attacking != val) {
+			anim.SetBool (animAttackingParam, val);
+			attacking = val;
+		}
 	}
 
 	public void onhitCallback(HitInfo hit)
@@ -137,5 +152,13 @@ public class AttackController : MonoBehaviour
 
 		// any custom calls
 		onKill.Invoke (hit);
+	}
+
+	public void changeTeam(int _teamId = TeamMember.TeamFFA)
+	{
+		teamId = _teamId;
+		for (int i = 0; i < projectiles.Count; i++) {
+			projectiles [i].teamId = teamId;
+		}
 	}
 }

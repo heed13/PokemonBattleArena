@@ -31,7 +31,6 @@ public class InGameCharacterSelection : MonoBehaviour {
 
 	public void showSelectionMenu()
 	{
-		Debug.Log ("oh okay");
 		window.gameObject.SetActive (true);
 		background.gameObject.SetActive (true);
 	}
