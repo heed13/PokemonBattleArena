@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class MoveController : MonoBehaviour {
+using UnityEngine.Networking;
+public class MoveController : NetworkBehaviour {
 	public const string  animMovingParam = "moving";
 	public const string  animDirXParam = "dirX";
 	public const string  animDirYParam = "dirY";

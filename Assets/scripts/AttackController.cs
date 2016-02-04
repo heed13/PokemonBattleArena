@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(TeamMember), typeof(Animator))]
-public class AttackController : Photon.MonoBehaviour
+public class AttackController : MonoBehaviour
 {
 	public const string animAttackingParam = "attacking";
 	// Public vars
@@ -46,7 +46,7 @@ public class AttackController : Photon.MonoBehaviour
 	void Update()
 	{
 		// Check if we are attacking
-		if (attacking && photonView.isMine)
+//		if (attacking && photonView.isMine)
 			NormalAttack ();
 	}
 		
@@ -58,15 +58,15 @@ public class AttackController : Photon.MonoBehaviour
 
 			float deg = getMousePos (); // get mouse position
 
-			photonView.RPC ("getAndLaunchProjectile", PhotonTargets.All, deg);
+			//photonView.RPC ("getAndLaunchProjectile", PhotonTargets.All, deg);
 
 		}
 	}
 
-	[PunRPC]
+//	[PunRPC]
 	public void getAndLaunchProjectile(float rotationDeg)
 	{
-		Debug.Log (photonView.viewID.ToString () + " is attacking");
+	//	Debug.Log (photonView.viewID.ToString () + " is attacking");
 		// loop through projectiles to find one we can use, break on first available
 		for (int i = 0; i < projectiles.Count; i++) {
 			if (!projectiles [i].gameObject.activeInHierarchy) {

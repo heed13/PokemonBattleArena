@@ -16,7 +16,7 @@ public class FFAGameMode : GameMode
 	new void Start()
 	{
 		base.Start ();
-		NetworkManager.manager.connect (connectToLobby);
+//		NetworkManager.manager.connect (connectToLobby);
 		SoundPlayer.soundPlayer.playMusic ("battleMusic",0.1f);
 	}
 
@@ -25,17 +25,17 @@ public class FFAGameMode : GameMode
 		if (myCharacter == null) { // If this is the first time spawning, create a new guy
 			
 			//Thinking this call should be RPC'd so that master can do most of the tracking ??? maybe
-			GameObject playerGO = PhotonNetwork.Instantiate (playerPrefabName, Vector3.zero, Quaternion.identity, 0);
-			playerGO.tag = "Player";
-			setCameraToFollowObject (playerGO.transform);
-			myCharacter = playerGO;
+		//	GameObject playerGO = PhotonNetwork.Instantiate (playerPrefabName, Vector3.zero, Quaternion.identity, 0);
+		//	playerGO.tag = "Player";
+			//setCameraToFollowObject (playerGO.transform);
+			//myCharacter = playerGO;
 		} 
 
 		// Prep sprite
-		photonView.RPC ("setCharacterInfoForPlayer", PhotonTargets.OthersBuffered, myCharacter.GetPhotonView().viewID, pokemon.name);
-		myCharacter.GetComponent<PlayerSprite> ().prepSprite (pokemon); // this should be RPC
+		//photonView.RPC ("setCharacterInfoForPlayer", PhotonTargets.OthersBuffered, myCharacter.GetPhotonView().viewID, pokemon.name);
+	//	myCharacter.GetComponent<PlayerSprite> ().prepSprite (pokemon); // this should be RPC
 
-		myCharacter.transform.position = getRandomSpawnPoint (); // RPC?
+		//myCharacter.transform.position = getRandomSpawnPoint (); // RPC?
 	}
 
 
@@ -47,27 +47,27 @@ public class FFAGameMode : GameMode
 	public void connectToLobby (bool connected)
 	{
 		if (connected) {
-			NetworkManager.manager.JoinLobby ((bool val) => {
-				selectionMenu.showSelectionMenu ();
-			});
+//			NetworkManager.manager.JoinLobby ((bool val) => {
+			//	selectionMenu.showSelectionMenu ();
+			//});
 		}
 	}
 
 	// ------------ Public RPC functions ------------
-	[PunRPC]
+	//[PunRPC]
 	public void setCharacterInfoForPlayer(int viewId, string pokemonName)
 	{
 		Debug.Log ("attempting to set other players sprite info: viewId: "+viewId);
 
 		// Find the correct Object
-		PhotonView view = PhotonView.Find (viewId);
-		if (view == null)
-			return;
+	//	PhotonView view = PhotonView.Find (viewId);
+//		if (view == null)
+			//return;
 		Debug.Log ("found id, setting info");
 
 		// call prep sprite on the object
-		view.gameObject.GetComponent<PlayerSprite> ().prepSprite (PokemonInfoManager.manager.getInfoByPokemonName (pokemonName));
-		view.gameObject.GetComponent<TeamMember> ().teamId = TeamMember.TeamFFA;
-		view.gameObject.GetComponent<AttackController> ().changeTeam ();
+		//view.gameObject.GetComponent<PlayerSprite> ().prepSprite (PokemonInfoManager.manager.getInfoByPokemonName (pokemonName));
+		//view.gameObject.GetComponent<TeamMember> ().teamId = TeamMember.TeamFFA;
+		//view.gameObject.GetComponent<AttackController> ().changeTeam ();
 	}
 }

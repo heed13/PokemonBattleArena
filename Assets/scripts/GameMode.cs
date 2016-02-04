@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameMode : Photon.MonoBehaviour
+public class GameMode : MonoBehaviour
 {
 	public static GameMode gameMode;
 
@@ -18,7 +18,6 @@ public class GameMode : Photon.MonoBehaviour
 
 	public virtual void connectToLobby()
 	{
-		NetworkManager.manager.JoinLobby ();
 	}
 
 	public virtual void spawnMyCharacter (PokemonInfo info)
