@@ -25,4 +25,9 @@ public class GameMode : MonoBehaviour
 		Camera.main.GetComponent<UnityStandardAssets._2D.Camera2DFollow> ().enabled = true;
 		Camera.main.GetComponent<UnityStandardAssets._2D.Camera2DFollow> ().target = trans;
 	}
+
+	protected virtual void setArena()
+	{
+		
+	}
 }
