@@ -5,14 +5,12 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
 	public static GameManager gameManager;
-	public string test;
 	public PlayerInfo player;
 	private List<PokemonInfo> selectedSixPokemonInfo;
 
 	// Use this for initialization
 	void Awake()
 	{
-		player = new PlayerInfo ();
 		// If game control doesn't exist, this is it
 		if (gameManager == null) {
 			gameManager = this;
@@ -21,18 +19,32 @@ public class GameManager : MonoBehaviour {
 		} else if (gameManager != this) {
 			Destroy(gameObject);
 		}
+
+		player = PlayerInfo.GetFromLocalSettings ();
+	}
+	void Start()
+	{
+		loadVolume ();
+	}
+
+	void loadVolume()
+	{
+		float musicVolume = LocalSettings.getMusicVolume ();
+		if (musicVolume != default(float))
+			SoundPlayer.soundPlayer.setMusicVolume (musicVolume);
+		else 
+			SoundPlayer.soundPlayer.setMusicVolume (75.0f);
+
+		float soundVolume = LocalSettings.getSoundVolume ();
+		if (soundVolume != default(float))
+			SoundPlayer.soundPlayer.setSoundEffectsVolume (soundVolume);
+		else 
+			SoundPlayer.soundPlayer.setSoundEffectsVolume (75.0f);
 	}
 
 	// Loading Screen
 	void OnGUI()
 	{
-	}
-
-	public void saveUsername(string username)
-	{
-		player.username = username;
-		player.nickname = username;
-		test = username;
 	}
 
 	public void startGame()

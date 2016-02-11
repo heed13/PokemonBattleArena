@@ -33,14 +33,21 @@ public class SettingsMenu : MonoBehaviour {
 	{
 		musicVolumeSlider.value = SoundPlayer.soundPlayer.musicVolume*100;
 		soundEffectsVolumeSlider.value = SoundPlayer.soundPlayer.soundVolume*100;
+		usernameTextbox.text = GameManager.gameManager.player.username;
 	}
 
 	public void saveInfo()
 	{
-		GameManager.gameManager.saveUsername (usernameTextbox.text); // todo gm shouldn't be in charge of this
+		// Save username, volume, etc...
+		GameManager.gameManager.player.username = usernameTextbox.text;
 		SoundPlayer.soundPlayer.setMusicVolume(musicVolumeSlider.value);
 		SoundPlayer.soundPlayer.setSoundEffectsVolume(soundEffectsVolumeSlider.value);
 
+		// Tell settings to save it off to player prefs
+		LocalSettings.setVolume (musicVolumeSlider.value, soundEffectsVolumeSlider.value);
+		LocalSettings.setUsername (usernameTextbox.text);
+
+		// play click sound
 		SoundPlayer.soundPlayer.playSound ("MenuClick");
 	}
 	public void backBtnPressed()

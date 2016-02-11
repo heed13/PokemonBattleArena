@@ -10,6 +10,13 @@ public struct PlayerInfo
 		this.userId = id;
 	}
 
+	public static PlayerInfo GetFromLocalSettings()
+	{
+		PlayerInfo player = new PlayerInfo();
+		player.username = LocalSettings.getUsername ();
+		return player;
+	}
+
 	public string username; // username of the player
 	public string nickname; // desired display name of the user
 	public string userId; // user id of player
