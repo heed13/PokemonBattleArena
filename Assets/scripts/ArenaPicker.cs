@@ -7,22 +7,11 @@ public class ArenaPicker : MonoBehaviour {
 	public Arena currentArena;
 	public GameObject tmpBaddieSpawn;
 
-	void Awake()
-	{
-		
-	}
-
 	// Use this for initialization
 	void Start ()
 	{
 		PickRandomArena ();
 		TmpSpawnBaddies ();
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-	
 	}
 
 	public void PickRandomArena()
