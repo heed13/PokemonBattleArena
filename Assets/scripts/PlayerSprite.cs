@@ -16,15 +16,15 @@ public class PlayerSprite : MonoBehaviour {
 
 	private bool colliderSet = false;
 	// we pretty much need to know about everything... so... here it goes
-	private MoveController mc;
-	private AttackController ac;
-	private TeamMember tm;
-	private Health hp;
-	private Experience xp;
-	private Animator an;
-	private Rigidbody2D rb;
-	private SpriteRenderer sr;
-	private BoxCollider2D bc;
+	public MoveController mc;
+	public AttackController ac;
+	public TeamMember tm;
+	public Health hp;
+	public Experience xp;
+	public Animator an;
+	public Rigidbody2D rb;
+	public SpriteRenderer sr;
+	public BoxCollider2D bc;
 
 	void Awake()
 	{

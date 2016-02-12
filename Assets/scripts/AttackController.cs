@@ -55,6 +55,9 @@ public class AttackController : MonoBehaviour
 		if (Time.time >= nextAttack) {
 			nextAttack = Time.time + attackDelay;
 
+			if (projectiles == null)
+				return;
+			
 			// loop through projectiles to find one we can use, break on first available
 			for (int i = 0; i < projectiles.Count; i++) {
 				if (!projectiles [i].gameObject.activeInHierarchy) {

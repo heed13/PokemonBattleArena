@@ -22,14 +22,24 @@ public class FFAGameMode : GameMode
 		if (myCharacter == null) { // If this is the first time spawning, create a new guy
 			
 			GameObject playerGO = (GameObject)Instantiate (playerPrefab, Vector3.zero, Quaternion.identity);
+
+			// Set player vars
 			playerGO.GetComponent<TeamMember> ().teamId = currentTeamId++;
 			playerGO.tag = "Player";
-			setCameraToFollowObject (playerGO.transform);
 			myCharacter = playerGO;
 
+			// Set camera to follow this target
+			setCameraToFollowObject (playerGO.transform);
+
+			// Link health panel to this pokemon
+			GameObject.FindObjectOfType<PokemonInfoPanel> ().linkPokemon (myCharacter.GetComponent<PlayerSprite> ());
+
 		} 
+
+		// Prep sprite
 		myCharacter.GetComponent<PlayerSprite> ().prepSprite (pokemon);
 
+		// Spawn player at random location
 		myCharacter.transform.position = getRandomSpawnPoint ();
 	}
 
