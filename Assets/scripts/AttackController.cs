@@ -76,6 +76,7 @@ public class AttackController : MonoBehaviour
 	}
 	void LaunchProjectile(Projectile projectile)
 	{
+		SoundPlayer.soundPlayer.playSound (pokemonInfo.attackSoundKey, transform.position);
 		float deg = getMousePos (); // get mouse position
 		projectile.transform.position = transform.position; // Set position to ours
 		projectile.transform.eulerAngles = new Vector3 (0, 0, deg); // set rotation to the mouse
@@ -91,6 +92,7 @@ public class AttackController : MonoBehaviour
 		atk.player = playerInfo;
 		atk.hitCallback = onhitCallback;
 		atk.killCallback = onKillCallback;
+		atk.hitSoundKey = pokemonInfo.hitSoundKey;
 		return atk;
 	}
 	void setProjectileInfo(Projectile proj)

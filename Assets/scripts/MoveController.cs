@@ -12,7 +12,7 @@ public class MoveController : MonoBehaviour {
 
 	Vector3 currentMovement;
 
-	void Start () 
+	void Awake () 
 	{
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();

@@ -77,6 +77,9 @@ public class SoundPlayer : MonoBehaviour {
 	// ------ Public Functions -------
 	public void playSound(string key, Vector2 location = default(Vector2))
 	{
+		if (key == null)
+			return;
+		
 		AudioClip[] clips = null;
 		if (soundBites.ContainsKey (key)) {
 			clips = soundBites [key];

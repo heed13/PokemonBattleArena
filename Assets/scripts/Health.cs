@@ -67,11 +67,6 @@ public class Health : MonoBehaviour {
 		gameObject.SetActive (false);
 		HideBar ();
 	}
-		
-	void playHitSound(pokemonType type)
-	{
-		SoundPlayer.soundPlayer.playSound ("genericHurt", transform.position);
-	}
 
 	IEnumerator FlashOnHit()
 	{
@@ -106,7 +101,7 @@ public class Health : MonoBehaviour {
 
 		// Let others know -- display stuff and whatnot
 		UpdateBar ();
-		playHitSound (atk.type);
+		SoundPlayer.soundPlayer.playSound (atk.hitSoundKey, transform.position);
 		atk.hitCallback (hitInfo);
 		ShowFloatingText (appliedDmg);
 		StartCoroutine ("FlashOnHit");

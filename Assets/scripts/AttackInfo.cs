@@ -1,6 +1,6 @@
 ﻿public struct AttackInfo 
 {	
-	public AttackInfo(int teamId, pokemonType type, float dmg, PokemonInfo pokemon, PlayerInfo player, System.Action<HitInfo> hitcallback, System.Action<HitInfo> killcallback)
+	public AttackInfo(int teamId, pokemonType type, float dmg, PokemonInfo pokemon, PlayerInfo player, System.Action<HitInfo> hitcallback, System.Action<HitInfo> killcallback, string hitSoundKey )
 	{
 		this.teamId = teamId;
 		this.type = type;
@@ -9,6 +9,7 @@
 		this.player = player;
 		this.hitCallback = hitcallback;
 		this.killCallback = killcallback;
+		this.hitSoundKey = hitSoundKey;
 	}
 	public int teamId;
 	public pokemonType type; // elemental type of the attack
@@ -19,4 +20,6 @@
 
 	public System.Action<HitInfo> hitCallback; // function to call if this hits something
 	public System.Action<HitInfo> killCallback; // function to call if this kills something
+
+	public string hitSoundKey; // key to use for the sound to play when object is hit
 }

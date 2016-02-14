@@ -31,6 +31,9 @@ public struct PokemonInfo
 	public List<Texture> resistantIcons; // icons of this pokemons resistances
 	public RuntimeAnimatorController animator; // what animator does this pokemon use?
 	public RuntimeAnimatorController attackAnimator; // what attack does this pokemon use? todo: this will probably change to some kind of dict later on
+
+	public string attackSoundKey; // the sound key that should be played when this pokemon attacks
+	public string hitSoundKey; // the sound key that should be played when this pokemon hits something
 }
 
 public class PokemonInfoHandler
@@ -142,6 +145,7 @@ public class PokemonInfoHandler
 	{
 		switch (type) {
 		case pokemonType.fire:
+			info.attackSoundKey = "FireAttack";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/FireBlast") as RuntimeAnimatorController;
 			break;
 
@@ -154,6 +158,8 @@ public class PokemonInfoHandler
 			break;
 
 		case pokemonType.ghost:
+			info.attackSoundKey = "GhostAttack";
+			info.hitSoundKey = "GhostHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Ghost") as RuntimeAnimatorController;
 			break;
 
@@ -166,6 +172,7 @@ public class PokemonInfoHandler
 			break;
 
 		case pokemonType.psychic:
+			info.attackSoundKey = "PsychicAttack";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Psychic") as RuntimeAnimatorController;
 
 			break;

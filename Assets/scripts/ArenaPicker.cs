@@ -10,7 +10,8 @@ public class ArenaPicker : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		PickRandomArena ();
+		SpawnArena (arenas [0]);
+		//PickRandomArena ();
 		TmpSpawnBaddies ();
 	}
 
