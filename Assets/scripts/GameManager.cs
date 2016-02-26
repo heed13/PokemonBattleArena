@@ -30,13 +30,13 @@ public class GameManager : MonoBehaviour {
 	void loadVolume()
 	{
 		float musicVolume = LocalSettings.getMusicVolume ();
-		if (musicVolume != default(float))
+		if (musicVolume != -1)
 			SoundPlayer.soundPlayer.setMusicVolume (musicVolume);
 		else 
 			SoundPlayer.soundPlayer.setMusicVolume (75.0f);
 
 		float soundVolume = LocalSettings.getSoundVolume ();
-		if (soundVolume != default(float))
+		if (soundVolume != -1)
 			SoundPlayer.soundPlayer.setSoundEffectsVolume (soundVolume);
 		else 
 			SoundPlayer.soundPlayer.setSoundEffectsVolume (75.0f);
