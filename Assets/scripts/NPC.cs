@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class NPC : MonoBehaviour 
 {
-	public float moveChance = 0.5f; // what are the odds of him moving?
+	public float moveChance = 1f; // what are the odds of him moving?
 	public float decisionInterval = 3; // How often does this npc make a decision
 	public List<RuntimeAnimatorController> animators = new List<RuntimeAnimatorController> ();
 	public Animator myAnim;

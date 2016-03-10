@@ -235,7 +235,7 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	}
 	public void setRandom()
 	{
-		pokemonType type = (pokemonType)Random.Range (0, (int)pokemonType.count);
+		pokemonType type = (pokemonType)Random.Range (1, (int)pokemonType.count);
 		do {
 			pokemonType tmp = type;
 			type = (pokemonType)Random.Range (0, (int)pokemonType.count);

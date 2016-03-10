@@ -146,14 +146,19 @@ public class PokemonInfoHandler
 		switch (type) {
 		case pokemonType.fire:
 			info.attackSoundKey = "FireAttack";
+			info.hitSoundKey = "FireHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/FireBlast") as RuntimeAnimatorController;
 			break;
 
 		case pokemonType.water:
+			info.attackSoundKey = "WaterAttack";
+			info.hitSoundKey = "WaterHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Water") as RuntimeAnimatorController;
 			break;
 
 		case pokemonType.grass:
+			info.attackSoundKey = "GrassAttack";
+			info.hitSoundKey = "GrassHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Grass") as RuntimeAnimatorController;
 			break;
 
@@ -164,27 +169,37 @@ public class PokemonInfoHandler
 			break;
 
 		case pokemonType.normal:
+			info.attackSoundKey = "NormalAttack";
+			info.hitSoundKey = "NormalHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Normal") as RuntimeAnimatorController;
 			break;
 
 		case pokemonType.electric:
+			info.attackSoundKey = "ElectricAttack";
+			info.hitSoundKey = "ElectricHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Electric") as RuntimeAnimatorController;
 			break;
 
 		case pokemonType.psychic:
 			info.attackSoundKey = "PsychicAttack";
+			info.hitSoundKey = "PsychicHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Psychic") as RuntimeAnimatorController;
-
 			break;
 
 		case pokemonType.fighting:
+			info.attackSoundKey = "FightingAttack";
+			info.hitSoundKey = "FightingHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Fighting") as RuntimeAnimatorController;
 			break;
 		case pokemonType.rock:
+			info.attackSoundKey = "RockAttack";
+			info.hitSoundKey = "RockHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Rock") as RuntimeAnimatorController;
 			break;
 
 		default:
+			info.attackSoundKey = "NormalAttack";
+			info.hitSoundKey = "NormalHit";
 			info.attackAnimator = Resources.Load ("attacks/AttackAnimation/Fighting") as RuntimeAnimatorController;
 			break;
 		}
