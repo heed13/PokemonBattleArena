@@ -26,6 +26,9 @@ public class Projectile : MonoBehaviour {
 				col.gameObject.BroadcastMessage ("TakeDamage", atkInfo);
 			} else {
 				switch (col.gameObject.tag) {
+				case "NPC":
+					col.gameObject.BroadcastMessage ("TakeDamage", atkInfo);
+					break;
 				case "Player":
 				case "Projectile":
 				case "UnCollidable":
