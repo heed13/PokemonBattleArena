@@ -161,7 +161,6 @@ public class CharacterSelectionMenu : MonoBehaviour {
 
 	void setInfo (pokemonType type)
 	{
-		return;
 		//set info
 		characterInfoList.ForEach (delegate (PokemonInfo obj) {
 			if (obj.type == type) {

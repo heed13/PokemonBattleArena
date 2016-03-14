@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using EZ_Pooling;
 using System;
+using UnityEngine.Events;
 
 
-public class Health : MonoBehaviour {
+public class Health : MonoBehaviour 
+{
 	// HP Vars
 	public float currentHP;
 	public float totalHP;
@@ -22,6 +24,23 @@ public class Health : MonoBehaviour {
 
 	// Floating Text Vars
 	public Transform FloatingTextPrefab;
+
+	// OnKill/ OnHit events
+	[System.Serializable]
+	public class HPEventType : UnityEvent<HitInfo> { } // event type for a succesful hit/kill
+	public HPEventType onHit; // triggered when this character hits something
+	public HPEventType onKill; // triggered when this character kills something
+
+	// Anim Vars
+	private Animator anim;
+	private const string animKilledTrigger = "killed";
+
+
+	void Awake()
+	{
+		anim = GetComponent<Animator> ();
+		anim.logWarnings = false;
+	}
 
 	void Start()
 	{
@@ -64,9 +83,17 @@ public class Health : MonoBehaviour {
 
 	void Die()
 	{
-		gameObject.SetActive (false);
+		anim.SetTrigger (animKilledTrigger);
+		GetComponent<Collider2D> ().enabled = false;
+		Invoke ("SetActive", 2.0f);
 		HideBar ();
 	}
+
+	void SetActive()
+	{
+		gameObject.SetActive (false);
+	}
+		
 
 	IEnumerator FlashOnHit()
 	{
@@ -95,7 +122,7 @@ public class Health : MonoBehaviour {
 
 		// Set total DMG
 		hitInfo.totalDmgDealt = appliedDmg;
-
+		
 		// Apply damage
 		currentHP -= appliedDmg;
 
@@ -103,6 +130,7 @@ public class Health : MonoBehaviour {
 		UpdateBar ();
 		SoundPlayer.soundPlayer.playSound (atk.hitSoundKey, transform.position);
 		atk.hitCallback (hitInfo);
+		onHit.Invoke (hitInfo);
 		ShowFloatingText (appliedDmg);
 		StartCoroutine ("FlashOnHit");
 
@@ -113,6 +141,7 @@ public class Health : MonoBehaviour {
 			currentHP = 0;
 			hitInfo.killed = true;
 			atk.killCallback (hitInfo);
+			onKill.Invoke (hitInfo);
 
 			// End our misery
 			Die ();

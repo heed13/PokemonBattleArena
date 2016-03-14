@@ -5,7 +5,7 @@ using UnityEngine.UI;
 [RequireComponent (typeof(AudioSource))]
 public class Video : MonoBehaviour {
 	public MovieTexture movie;
-	private AudioSource audio;
+	private AudioSource audioSource;
 
 	void Start () 
 	{
@@ -19,11 +19,11 @@ public class Video : MonoBehaviour {
 		}
 		GetComponent<InstantGuiElement> ().style.main.texture = movie as MovieTexture;
 		//GetComponent<RawImage> ().texture = movie as MovieTexture;
-		audio = GetComponent<AudioSource> ();
-		audio.clip = movie.audioClip;
+		audioSource = GetComponent<AudioSource> ();
+		audioSource.clip = movie.audioClip;
 
 		movie.Play ();
-		audio.Play ();
+		audioSource.Play ();
 		yield return null;
 	}
 	
@@ -31,10 +31,10 @@ public class Video : MonoBehaviour {
 	{
 		if (Input.GetKeyDown (KeyCode.Space) && movie.isPlaying) {
 			movie.Pause ();
-			audio.Pause ();
+			audioSource.Pause ();
 		} else if (Input.GetKeyDown (KeyCode.Space) && !movie.isPlaying) {
 			movie.Play ();
-			audio.Play ();
+			audioSource.Play ();
 		}
 	}
 }

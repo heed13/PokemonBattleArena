@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[RequireComponent(typeof(Animator))]
 public class NPC : MonoBehaviour 
 {
 	public float moveChance = 1f; // what are the odds of him moving?
@@ -40,7 +41,6 @@ public class NPC : MonoBehaviour
 
 	void MakeADecision()
 	{
-		Debug.Log ("NPC Making a decision");
 		bool move = (Random.Range (0.0f, 1.0f) <= moveChance) ? true : false;	
 		if (!move) {
 			isMoving = false;
@@ -58,4 +58,5 @@ public class NPC : MonoBehaviour
 
 		targetPos = dir;
 	}
+		
 }

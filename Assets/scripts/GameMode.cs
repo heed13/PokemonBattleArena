@@ -23,6 +23,7 @@ public class GameMode : MonoBehaviour
 	protected virtual void setCameraToFollowObject(Transform trans)
 	{
 		Camera.main.GetComponent<UnityStandardAssets._2D.Camera2DFollow> ().enabled = true;
+		Camera.main.GetComponent<AudioListener> ().enabled = false;
 		Camera.main.GetComponent<UnityStandardAssets._2D.Camera2DFollow> ().target = trans;
 	}
 
