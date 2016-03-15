@@ -15,6 +15,7 @@ public class GameMode : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
+
 	public virtual void spawnMyCharacter (PokemonInfo info)
 	{
 	}
