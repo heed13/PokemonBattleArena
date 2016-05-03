@@ -1,0 +1,5659 @@
+fileFormatVersion: 2
+guid: 497c0df8145f1ff458ccc23890d939b1
+timeCreated: 1456890478
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 3860edited_0
+    21300002: 3860edited_1
+    21300004: 3860edited_2
+    21300006: 3860edited_3
+    21300008: 3860edited_4
+    21300010: 3860edited_5
+    21300012: 3860edited_6
+    21300014: 3860edited_7
+    21300016: 3860edited_8
+    21300018: 3860edited_9
+    21300020: 3860edited_10
+    21300022: 3860edited_11
+    21300024: 3860edited_12
+    21300026: 3860edited_13
+    21300028: 3860edited_14
+    21300030: 3860edited_15
+    21300032: 3860edited_16
+    21300034: 3860edited_17
+    21300036: 3860edited_18
+    21300038: 3860edited_19
+    21300040: 3860edited_20
+    21300042: 3860edited_21
+    21300044: 3860edited_22
+    21300046: 3860edited_23
+    21300048: 3860edited_24
+    21300050: 3860edited_25
+    21300052: 3860edited_26
+    21300054: 3860edited_27
+    21300056: 3860edited_28
+    21300058: 3860edited_29
+    21300060: 3860edited_30
+    21300062: 3860edited_31
+    21300064: 3860edited_32
+    21300066: 3860edited_33
+    21300068: 3860edited_34
+    21300070: 3860edited_35
+    21300072: 3860edited_36
+    21300074: 3860edited_37
+    21300076: 3860edited_38
+    21300078: 3860edited_39
+    21300080: 3860edited_40
+    21300082: 3860edited_41
+    21300084: 3860edited_42
+    21300086: 3860edited_43
+    21300088: 3860edited_44
+    21300090: 3860edited_45
+    21300092: 3860edited_46
+    21300094: 3860edited_47
+    21300096: 3860edited_48
+    21300098: 3860edited_49
+    21300100: 3860edited_50
+    21300102: 3860edited_51
+    21300104: 3860edited_52
+    21300106: 3860edited_53
+    21300108: 3860edited_54
+    21300110: 3860edited_55
+    21300112: 3860edited_56
+    21300114: 3860edited_57
+    21300116: 3860edited_58
+    21300118: 3860edited_59
+    21300120: 3860edited_60
+    21300122: 3860edited_61
+    21300124: 3860edited_62
+    21300126: 3860edited_63
+    21300128: 3860edited_64
+    21300130: 3860edited_65
+    21300132: 3860edited_66
+    21300134: 3860edited_67
+    21300136: 3860edited_68
+    21300138: 3860edited_69
+    21300140: 3860edited_70
+    21300142: 3860edited_71
+    21300144: 3860edited_72
+    21300146: 3860edited_73
+    21300148: 3860edited_74
+    21300150: 3860edited_75
+    21300152: 3860edited_76
+    21300154: 3860edited_77
+    21300156: 3860edited_78
+    21300158: 3860edited_79
+    21300160: 3860edited_80
+    21300162: 3860edited_81
+    21300164: 3860edited_82
+    21300166: 3860edited_83
+    21300168: 3860edited_84
+    21300170: 3860edited_85
+    21300172: 3860edited_86
+    21300174: 3860edited_87
+    21300176: 3860edited_88
+    21300178: 3860edited_89
+    21300180: 3860edited_90
+    21300182: 3860edited_91
+    21300184: 3860edited_92
+    21300186: 3860edited_93
+    21300188: 3860edited_94
+    21300190: 3860edited_95
+    21300192: 3860edited_96
+    21300194: 3860edited_97
+    21300196: 3860edited_98
+    21300198: 3860edited_99
+    21300200: 3860edited_100
+    21300202: 3860edited_101
+    21300204: 3860edited_102
+    21300206: 3860edited_103
+    21300208: 3860edited_104
+    21300210: 3860edited_105
+    21300212: 3860edited_106
+    21300214: 3860edited_107
+    21300216: 3860edited_108
+    21300218: 3860edited_109
+    21300220: 3860edited_110
+    21300222: 3860edited_111
+    21300224: 3860edited_112
+    21300226: 3860edited_113
+    21300228: 3860edited_114
+    21300230: 3860edited_115
+    21300232: 3860edited_116
+    21300234: 3860edited_117
+    21300236: 3860edited_118
+    21300238: 3860edited_119
+    21300240: 3860edited_120
+    21300242: 3860edited_121
+    21300244: 3860edited_122
+    21300246: 3860edited_123
+    21300248: 3860edited_124
+    21300250: 3860edited_125
+    21300252: 3860edited_126
+    21300254: 3860edited_127
+    21300256: 3860edited_128
+    21300258: 3860edited_129
+    21300260: 3860edited_130
+    21300262: 3860edited_131
+    21300264: 3860edited_132
+    21300266: 3860edited_133
+    21300268: 3860edited_134
+    21300270: 3860edited_135
+    21300272: 3860edited_136
+    21300274: 3860edited_137
+    21300276: 3860edited_138
+    21300278: 3860edited_139
+    21300280: 3860edited_140
+    21300282: 3860edited_141
+    21300284: 3860edited_142
+    21300286: 3860edited_143
+    21300288: 3860edited_144
+    21300290: 3860edited_145
+    21300292: 3860edited_146
+    21300294: 3860edited_147
+    21300296: 3860edited_148
+    21300298: 3860edited_149
+    21300300: 3860edited_150
+    21300302: 3860edited_151
+    21300304: 3860edited_152
+    21300306: 3860edited_153
+    21300308: 3860edited_154
+    21300310: 3860edited_155
+    21300312: 3860edited_156
+    21300314: 3860edited_157
+    21300316: 3860edited_158
+    21300318: 3860edited_159
+    21300320: 3860edited_160
+    21300322: 3860edited_161
+    21300324: 3860edited_162
+    21300326: 3860edited_163
+    21300328: 3860edited_164
+    21300330: 3860edited_165
+    21300332: 3860edited_166
+    21300334: 3860edited_167
+    21300336: 3860edited_168
+    21300338: 3860edited_169
+    21300340: 3860edited_170
+    21300342: 3860edited_171
+    21300344: 3860edited_172
+    21300346: 3860edited_173
+    21300348: 3860edited_174
+    21300350: 3860edited_175
+    21300352: 3860edited_176
+    21300354: 3860edited_177
+    21300356: 3860edited_178
+    21300358: 3860edited_179
+    21300360: 3860edited_180
+    21300362: 3860edited_181
+    21300364: 3860edited_182
+    21300366: 3860edited_183
+    21300368: 3860edited_184
+    21300370: 3860edited_185
+    21300372: 3860edited_186
+    21300374: 3860edited_187
+    21300376: 3860edited_188
+    21300378: 3860edited_189
+    21300380: 3860edited_190
+    21300382: 3860edited_191
+    21300384: 3860edited_192
+    21300386: 3860edited_193
+    21300388: 3860edited_194
+    21300390: 3860edited_195
+    21300392: 3860edited_196
+    21300394: 3860edited_197
+    21300396: 3860edited_198
+    21300398: 3860edited_199
+    21300400: 3860edited_200
+    21300402: 3860edited_201
+    21300404: 3860edited_202
+    21300406: 3860edited_203
+    21300408: 3860edited_204
+    21300410: 3860edited_205
+    21300412: 3860edited_206
+    21300414: 3860edited_207
+    21300416: 3860edited_208
+    21300418: 3860edited_209
+    21300420: 3860edited_210
+    21300422: 3860edited_211
+    21300424: 3860edited_212
+    21300426: 3860edited_213
+    21300428: 3860edited_214
+    21300430: 3860edited_215
+    21300432: 3860edited_216
+    21300434: 3860edited_217
+    21300436: 3860edited_218
+    21300438: 3860edited_219
+    21300440: 3860edited_220
+    21300442: 3860edited_221
+    21300444: 3860edited_222
+    21300446: 3860edited_223
+    21300448: 3860edited_224
+    21300450: 3860edited_225
+    21300452: 3860edited_226
+    21300454: 3860edited_227
+    21300456: 3860edited_228
+    21300458: 3860edited_229
+    21300460: 3860edited_230
+    21300462: 3860edited_231
+    21300464: 3860edited_232
+    21300466: 3860edited_233
+    21300468: 3860edited_234
+    21300470: 3860edited_235
+    21300472: 3860edited_236
+    21300474: 3860edited_237
+    21300476: 3860edited_238
+    21300478: 3860edited_239
+    21300480: 3860edited_240
+    21300482: 3860edited_241
+    21300484: 3860edited_242
+    21300486: 3860edited_243
+    21300488: 3860edited_244
+    21300490: 3860edited_245
+    21300492: 3860edited_246
+    21300494: 3860edited_247
+    21300496: 3860edited_248
+    21300498: 3860edited_249
+    21300500: 3860edited_250
+    21300502: 3860edited_251
+    21300504: 3860edited_252
+    21300506: 3860edited_253
+    21300508: 3860edited_254
+    21300510: 3860edited_255
+    21300512: 3860edited_256
+    21300514: 3860edited_257
+    21300516: 3860edited_258
+    21300518: 3860edited_259
+    21300520: 3860edited_260
+    21300522: 3860edited_261
+    21300524: 3860edited_262
+    21300526: 3860edited_263
+    21300528: 3860edited_264
+    21300530: 3860edited_265
+    21300532: 3860edited_266
+    21300534: 3860edited_267
+    21300536: 3860edited_268
+    21300538: 3860edited_269
+    21300540: 3860edited_270
+    21300542: 3860edited_271
+    21300544: 3860edited_272
+    21300546: 3860edited_273
+    21300548: 3860edited_274
+    21300550: 3860edited_275
+    21300552: 3860edited_276
+    21300554: 3860edited_277
+    21300556: 3860edited_278
+    21300558: 3860edited_279
+    21300560: 3860edited_280
+    21300562: 3860edited_281
+    21300564: 3860edited_282
+    21300566: 3860edited_283
+    21300568: 3860edited_284
+    21300570: 3860edited_285
+    21300572: 3860edited_286
+    21300574: 3860edited_287
+    21300576: 3860edited_288
+    21300578: 3860edited_289
+    21300580: 3860edited_290
+    21300582: 3860edited_291
+    21300584: 3860edited_292
+    21300586: 3860edited_293
+    21300588: 3860edited_294
+    21300590: 3860edited_295
+    21300592: 3860edited_296
+    21300594: 3860edited_297
+    21300596: 3860edited_298
+    21300598: 3860edited_299
+    21300600: 3860edited_300
+    21300602: 3860edited_301
+    21300604: 3860edited_302
+    21300606: 3860edited_303
+    21300608: 3860edited_304
+    21300610: 3860edited_305
+    21300612: 3860edited_306
+    21300614: 3860edited_307
+    21300616: 3860edited_308
+    21300618: 3860edited_309
+    21300620: 3860edited_310
+    21300622: 3860edited_311
+    21300624: 3860edited_312
+    21300626: 3860edited_313
+    21300628: 3860edited_314
+    21300630: 3860edited_315
+    21300632: 3860edited_316
+    21300634: 3860edited_317
+    21300636: 3860edited_318
+    21300638: 3860edited_319
+    21300640: 3860edited_320
+    21300642: 3860edited_321
+    21300644: 3860edited_322
+    21300646: 3860edited_323
+    21300648: 3860edited_324
+    21300650: 3860edited_325
+    21300652: 3860edited_326
+    21300654: 3860edited_327
+    21300656: 3860edited_328
+    21300658: 3860edited_329
+    21300660: 3860edited_330
+    21300662: 3860edited_331
+    21300664: 3860edited_332
+    21300666: 3860edited_333
+    21300668: 3860edited_334
+    21300670: 3860edited_335
+    21300672: 3860edited_336
+    21300674: 3860edited_337
+    21300676: 3860edited_338
+    21300678: 3860edited_339
+    21300680: 3860edited_340
+    21300682: 3860edited_341
+    21300684: 3860edited_342
+    21300686: 3860edited_343
+    21300688: 3860edited_344
+    21300690: 3860edited_345
+    21300692: 3860edited_346
+    21300694: 3860edited_347
+    21300696: 3860edited_348
+    21300698: 3860edited_349
+    21300700: 3860edited_350
+    21300702: 3860edited_351
+    21300704: 3860edited_352
+    21300706: 3860edited_353
+    21300708: 3860edited_354
+    21300710: 3860edited_355
+    21300712: 3860edited_356
+    21300714: 3860edited_357
+    21300716: 3860edited_358
+    21300718: 3860edited_359
+    21300720: 3860edited_360
+    21300722: 3860edited_361
+    21300724: 3860edited_362
+    21300726: 3860edited_363
+    21300728: 3860edited_364
+    21300730: 3860edited_365
+    21300732: 3860edited_366
+    21300734: 3860edited_367
+    21300736: 3860edited_368
+    21300738: 3860edited_369
+    21300740: 3860edited_370
+    21300742: 3860edited_371
+    21300744: 3860edited_372
+    21300746: 3860edited_373
+    21300748: 3860edited_374
+    21300750: 3860edited_375
+    21300752: 3860edited_376
+    21300754: 3860edited_377
+    21300756: 3860edited_378
+    21300758: 3860edited_379
+    21300760: 3860edited_380
+    21300762: 3860edited_381
+    21300764: 3860edited_382
+    21300766: 3860edited_383
+    21300768: 3860edited_384
+    21300770: 3860edited_385
+    21300772: 3860edited_386
+    21300774: 3860edited_387
+    21300776: 3860edited_388
+    21300778: 3860edited_389
+    21300780: 3860edited_390
+    21300782: 3860edited_391
+    21300784: 3860edited_392
+    21300786: 3860edited_393
+    21300788: 3860edited_394
+    21300790: 3860edited_395
+    21300792: 3860edited_396
+    21300794: 3860edited_397
+    21300796: 3860edited_398
+    21300798: 3860edited_399
+    21300800: 3860edited_400
+    21300802: 3860edited_401
+    21300804: 3860edited_402
+    21300806: 3860edited_403
+    21300808: 3860edited_404
+    21300810: 3860edited_405
+    21300812: 3860edited_406
+    21300814: 3860edited_407
+    21300816: 3860edited_408
+    21300818: 3860edited_409
+    21300820: 3860edited_410
+    21300822: 3860edited_411
+    21300824: 3860edited_412
+    21300826: 3860edited_413
+    21300828: 3860edited_414
+    21300830: 3860edited_415
+    21300832: 3860edited_416
+    21300834: 3860edited_417
+    21300836: 3860edited_418
+    21300838: 3860edited_419
+    21300840: 3860edited_420
+    21300842: 3860edited_421
+    21300844: 3860edited_422
+    21300846: 3860edited_423
+    21300848: 3860edited_424
+    21300850: 3860edited_425
+    21300852: 3860edited_426
+    21300854: 3860edited_427
+    21300856: 3860edited_428
+    21300858: 3860edited_429
+    21300860: 3860edited_430
+    21300862: 3860edited_431
+    21300864: 3860edited_432
+    21300866: 3860edited_433
+    21300868: 3860edited_434
+    21300870: 3860edited_435
+    21300872: 3860edited_436
+    21300874: 3860edited_437
+    21300876: 3860edited_438
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 3860edited_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 826
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 804
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 818
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 742
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 43}
+        - {x: -23.5, y: 32}
+        - {x: -29.5, y: 21}
+        - {x: -29.5, y: -24}
+        - {x: -24.5, y: -43}
+        - {x: 29.5, y: -43}
+        - {x: 29.5, y: 43}
+    - name: 3860edited_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 767
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 32}
+    - name: 3860edited_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 807
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 816
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 818
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 794
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 757
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: 3860edited_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 713
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 56}
+        - {x: -64, y: 50}
+        - {x: -64, y: -56}
+        - {x: 21, y: -56}
+        - {x: 64, y: -25}
+        - {x: 64, y: 56}
+    - name: 3860edited_12
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 760
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 32}
+        - {x: -64, y: -32}
+        - {x: 64, y: -32}
+        - {x: 64, y: 32}
+    - name: 3860edited_13
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 746
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 40}
+        - {x: -64, y: -40}
+        - {x: 64, y: -40}
+        - {x: 64, y: 40}
+    - name: 3860edited_14
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: 3860edited_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 786
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 799
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 789
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 795
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 798
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 769
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 783
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 786
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 789
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 791
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 777
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 774
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 766
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_29
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 767
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_30
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 754
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: 3860edited_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 755
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 674
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -44.5}
+        - {x: 11, y: -42.5}
+        - {x: 8, y: -41.5}
+        - {x: 6, y: -44.5}
+      - - {x: 30, y: -44.5}
+        - {x: 30, y: -42.5}
+        - {x: 27, y: -41.5}
+        - {x: 25, y: -44.5}
+      - - {x: 14, y: -44.5}
+        - {x: 17, y: -43.5}
+        - {x: 17, y: -40.5}
+        - {x: 14, y: -39.5}
+        - {x: 12, y: -41.5}
+      - - {x: 5, y: -42.5}
+        - {x: 8, y: -41.5}
+        - {x: 8, y: -38.5}
+        - {x: 5, y: -37.5}
+        - {x: 3, y: -39.5}
+      - - {x: 29, y: -40.5}
+        - {x: 31, y: -42.5}
+        - {x: 32, y: -42.5}
+        - {x: 32, y: -36.5}
+        - {x: 29, y: -37.5}
+      - - {x: 23, y: -41.5}
+        - {x: 26, y: -40.5}
+        - {x: 26, y: -37.5}
+        - {x: 23, y: -36.5}
+        - {x: 21, y: -38.5}
+      - - {x: 14, y: -37.5}
+        - {x: 17, y: -36.5}
+        - {x: 17, y: -33.5}
+        - {x: 14, y: -32.5}
+        - {x: 12, y: -34.5}
+      - - {x: 21, y: -36.5}
+        - {x: 24, y: -35.5}
+        - {x: 24, y: -32.5}
+        - {x: 21, y: -31.5}
+        - {x: 19, y: -33.5}
+      - - {x: 28, y: -32.5}
+        - {x: 30, y: -35.5}
+        - {x: 32, y: -34.5}
+        - {x: 32, y: -31.5}
+        - {x: 30, y: -30.5}
+      - - {x: 13, y: -31.5}
+        - {x: 16, y: -30.5}
+        - {x: 16, y: -27.5}
+        - {x: 13, y: -26.5}
+        - {x: 11, y: -28.5}
+      - - {x: 8, y: -14.5}
+        - {x: 11, y: -13.5}
+        - {x: 11, y: -10.5}
+        - {x: 8, y: -9.5}
+        - {x: 6, y: -11.5}
+      - - {x: 27, y: -14.5}
+        - {x: 30, y: -13.5}
+        - {x: 30, y: -10.5}
+        - {x: 27, y: -9.5}
+        - {x: 25, y: -11.5}
+      - - {x: 3, y: -8.5}
+        - {x: 4, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 11, y: -7.5}
+        - {x: 11, y: -3.5}
+        - {x: 10, y: -1.5}
+        - {x: 8, y: -1.5}
+        - {x: 3, y: -5.5}
+      - - {x: 27, y: -1.5}
+        - {x: 25, y: -3.5}
+        - {x: 26, y: -6.5}
+        - {x: 31, y: -10.5}
+        - {x: 32, y: -10.5}
+        - {x: 32, y: -3.5}
+        - {x: 31, y: -2.5}
+      - - {x: -32, y: -2.5}
+        - {x: -32, y: -9.5}
+        - {x: 1, y: -9.5}
+        - {x: 1, y: -2.5}
+      - - {x: 12, y: -2.5}
+        - {x: 14, y: -4.5}
+        - {x: 17, y: -3.5}
+        - {x: 17, y: -0.5}
+        - {x: 15, y: 1.5}
+        - {x: 12, y: 0.5}
+      - - {x: 3, y: 1.5}
+        - {x: 3, y: -0.5}
+        - {x: 5, y: -2.5}
+        - {x: 8, y: -1.5}
+        - {x: 11, y: 3.5}
+        - {x: 11, y: 5.5}
+        - {x: 8, y: 6.5}
+      - - {x: 21, y: -0.5}
+        - {x: 23, y: -2.5}
+        - {x: 26, y: -1.5}
+        - {x: 26, y: 1.5}
+        - {x: 24, y: 3.5}
+        - {x: 21, y: 2.5}
+      - - {x: 29, y: -0.5}
+        - {x: 31, y: -2.5}
+        - {x: 32, y: -2.5}
+        - {x: 32, y: 3.5}
+        - {x: 29, y: 2.5}
+      - - {x: -11, y: 12.5}
+        - {x: -23, y: 12.5}
+        - {x: -30, y: 8.5}
+        - {x: -30, y: 4.5}
+        - {x: -29, y: 2.5}
+        - {x: -7, y: 2.5}
+        - {x: -4, y: 5.5}
+        - {x: -4, y: 10.5}
+      - - {x: 9, y: 7.5}
+        - {x: 14, y: 2.5}
+        - {x: 17, y: 3.5}
+        - {x: 18, y: 7.5}
+        - {x: 14, y: 13.5}
+        - {x: 11, y: 12.5}
+      - - {x: 21, y: 13.5}
+        - {x: 18, y: 10.5}
+        - {x: 18, y: 8.5}
+        - {x: 21, y: 3.5}
+        - {x: 22, y: 3.5}
+        - {x: 24, y: 4.5}
+        - {x: 24, y: 12.5}
+      - - {x: 26, y: 4.5}
+        - {x: 29, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 26, y: 9.5}
+        - {x: 24, y: 7.5}
+      - - {x: -22, y: 33.5}
+        - {x: -32, y: 26.5}
+        - {x: -32, y: 19.5}
+        - {x: -29, y: 16.5}
+        - {x: -24, y: 15.5}
+        - {x: -7, y: 15.5}
+        - {x: -2, y: 20.5}
+        - {x: -2, y: 27.5}
+        - {x: -14, y: 33.5}
+      - - {x: 28, y: 33.5}
+        - {x: 26, y: 35.5}
+        - {x: 29, y: 33.5}
+        - {x: 31, y: 32.5}
+        - {x: 32, y: 35.5}
+        - {x: 32, y: 40.5}
+        - {x: 29, y: 44.5}
+        - {x: 6, y: 44.5}
+        - {x: 6, y: 23.5}
+        - {x: 10, y: 21.5}
+        - {x: 24, y: 21.5}
+        - {x: 32, y: 26.5}
+        - {x: 30, y: 32.5}
+      - - {x: -32, y: 44.5}
+        - {x: -32, y: 38.5}
+        - {x: -26, y: 34.5}
+        - {x: -10, y: 34.5}
+        - {x: -7, y: 35.5}
+        - {x: -3, y: 38.5}
+        - {x: -1, y: 44.5}
+    - name: 3860edited_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 754
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 754
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 759
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 760
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_38
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 736
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_39
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 742
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_40
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 741
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 722
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_42
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 744
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 738
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_44
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 729
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_45
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 625
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -12}
+        - {x: 29, y: -8}
+        - {x: 41, y: -23}
+        - {x: 54, y: -23}
+        - {x: 59, y: -22}
+        - {x: 60, y: -20}
+        - {x: 60, y: 4}
+        - {x: 59, y: 4}
+        - {x: 44, y: 3}
+        - {x: 50, y: 3}
+        - {x: 55, y: 13}
+        - {x: 57, y: 32}
+        - {x: 46, y: 49}
+        - {x: 28, y: 60}
+        - {x: -33, y: 60}
+        - {x: -60, y: 37}
+        - {x: -60, y: -17}
+        - {x: -58, y: -24}
+        - {x: -53, y: -26}
+        - {x: -45, y: -21}
+        - {x: -39, y: -21}
+        - {x: -43, y: -21}
+        - {x: -51, y: -27}
+        - {x: -53, y: -34}
+        - {x: -43, y: -60}
+        - {x: 46, y: -60}
+        - {x: 60, y: -57}
+        - {x: 60, y: -56}
+        - {x: 57, y: -27}
+        - {x: 51, y: -24}
+        - {x: 42, y: -23}
+    - name: 3860edited_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 704
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_47
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 723
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_48
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 717
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_49
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 693
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 728
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_51
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 681
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_52
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 709
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_53
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 703
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_54
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 710
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_55
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 709
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_56
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 728
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 690
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_58
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 687
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 712
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_60
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 693
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_61
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 709
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_62
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 712
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_63
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 678
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 677
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_65
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 677
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_66
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 683
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_67
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 697
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_68
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 667
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_69
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 692
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 679
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 639
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -21, y: -24}
+        - {x: -16, y: -29}
+        - {x: 13, y: -29}
+        - {x: 21, y: -20}
+        - {x: 21, y: 29}
+    - name: 3860edited_72
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 658
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_73
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 684
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_74
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 656
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_75
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 679
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 664
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_77
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 646
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_78
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 548
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 64}
+        - {x: -16, y: 58}
+        - {x: -16, y: -60}
+        - {x: -10, y: -64}
+        - {x: 12, y: -64}
+        - {x: 16, y: -57}
+        - {x: 16, y: 59}
+        - {x: 11, y: 64}
+    - name: 3860edited_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 658
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_80
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 651
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_81
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 668
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_82
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 658
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_83
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 664
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_84
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 630
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_85
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 660
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 644
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_87
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 660
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_88
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 652
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_89
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 654
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_90
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 646
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_91
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 651
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_92
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 651
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_93
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 626
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_94
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 643
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_95
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 644
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_96
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 646
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_97
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 650
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_98
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 644
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_99
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 649
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_100
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 642
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_101
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 638
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_102
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 642
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_103
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 619
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_104
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 632
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_105
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 628
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_106
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 634
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_107
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 633
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_108
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 623
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_109
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 613
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_110
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 614
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_111
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 568
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 30.5}
+        - {x: -25, y: 20.5}
+        - {x: -25, y: -30.5}
+        - {x: -2, y: -30.5}
+        - {x: 25, y: -10.5}
+        - {x: 25, y: 30.5}
+    - name: 3860edited_112
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 614
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_113
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 609
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_114
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 601
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_115
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 625
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_116
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 623
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_117
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 615
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_118
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 616
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_119
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 591
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_120
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 609
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_121
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 577
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 19}
+        - {x: -19, y: 18}
+        - {x: -19, y: -14}
+        - {x: -17, y: -19}
+        - {x: 11, y: -19}
+        - {x: 19, y: -13}
+        - {x: 19, y: 11}
+        - {x: 15, y: 19}
+    - name: 3860edited_122
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 613
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_123
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 612
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_124
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 590
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_125
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 582
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_126
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 602
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_127
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 583
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 601
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_129
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 479
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 63.5}
+        - {x: -56, y: -63.5}
+        - {x: 56, y: -63.5}
+        - {x: 56, y: 63.5}
+    - name: 3860edited_130
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 580
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_131
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 600
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_132
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 594
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_133
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 578
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_134
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 590
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_135
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 589
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_136
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 531
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -21, y: -32}
+        - {x: 21, y: -32}
+        - {x: 21, y: 32}
+    - name: 3860edited_137
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 586
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_138
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 568
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_139
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 588
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_140
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 576
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_141
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 558
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_142
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 550
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_143
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 576
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_144
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 575
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_145
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 579
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_146
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 568
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_147
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 570
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_148
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 554
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_149
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 567
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_150
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 548
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_151
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 527
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_152
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 548
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_153
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 550
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_154
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 555
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_155
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 533
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_156
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 555
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_157
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 556
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_158
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 552
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_159
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 558
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_160
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 546
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_161
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 548
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_162
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 529
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_163
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 535
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_164
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 529
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_165
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 507
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_166
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 542
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_167
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 516
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_168
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 514
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_169
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 524
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_170
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 516
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_171
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 526
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_172
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 527
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_173
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 521
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_174
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 523
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_175
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 530
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_176
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 495
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_177
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 508
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_178
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 514
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_179
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 506
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_180
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 489
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_181
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 494
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_182
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_183
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 512
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_184
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 504
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_185
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 495
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_186
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 514
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_187
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 469
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_188
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 481
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_189
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 492
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_190
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 484
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_191
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 441
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_192
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 484
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_193
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 494
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_194
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 484
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_195
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 476
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_196
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 486
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_197
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 498
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_198
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 460
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_199
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_200
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 474
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_201
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_202
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 472
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_203
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 480
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_204
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 475
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_205
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 479
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_206
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 460
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_207
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 474
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_208
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 450
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_209
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 462
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_210
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 466
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_211
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 470
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_212
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 429
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_213
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 450
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_214
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 451
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_215
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 438
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_216
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 461
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_217
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 460
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_218
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 465
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_219
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 448
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_220
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 457
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_221
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 458
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_222
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 445
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_223
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 457
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_224
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 452
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_225
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 450
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_226
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 429
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_227
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 441
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_228
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 421
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_229
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 398
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28}
+        - {x: -16, y: -28}
+        - {x: 11, y: -28}
+        - {x: 16, y: -26}
+        - {x: 16, y: 25}
+        - {x: 12, y: 28}
+    - name: 3860edited_230
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 436
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_231
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 438
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_232
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 436
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_233
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 441
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_234
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 436
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_235
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 430
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_236
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 423
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_237
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 421
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_238
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 422
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_239
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_240
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 426
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_241
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 430
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_242
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 426
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_243
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 411
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_244
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 399
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_245
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 420
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_246
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 427
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_247
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 424
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_248
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 424
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_249
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 425
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_250
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 414
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_251
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 421
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_252
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 410
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_253
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 420
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_254
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 403
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_255
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 403
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_256
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 408
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_257
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 377
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_258
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 365
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_259
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 384
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_260
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 361
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_261
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 405
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_262
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 405
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_263
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 395
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_264
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 403
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_265
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 397
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_266
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 399
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_267
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 397
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_268
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 404
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_269
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 383
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_270
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 367
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_271
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 349
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_272
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 367
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_273
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 361
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17}
+        - {x: -19, y: 15}
+        - {x: -19, y: -17}
+        - {x: 14, y: -17}
+        - {x: 19, y: -16}
+        - {x: 19, y: 10}
+        - {x: 14, y: 17}
+    - name: 3860edited_274
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 390
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_275
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_276
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_277
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19}
+        - {x: -16, y: 18}
+        - {x: -16, y: -19}
+        - {x: 16, y: -19}
+        - {x: 16, y: 19}
+    - name: 3860edited_278
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 381
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_279
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 378
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_280
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 353
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_281
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 348
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_282
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 375
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_283
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 364
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_284
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 345
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_285
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 347
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_286
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 358
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_287
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 335
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.47527772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_289
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 350
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_290
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 361
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_291
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 351
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_292
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 350
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_293
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 346
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_294
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 346
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_295
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 345
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_296
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 327
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_297
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 328
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_298
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 314
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 22.5}
+        - {x: -5, y: 7.5}
+        - {x: -1, y: 6.5}
+        - {x: 1, y: 6.5}
+        - {x: 6, y: 8.5}
+        - {x: 3, y: 6.5}
+        - {x: 0, y: 6.5}
+        - {x: -5, y: 7.5}
+        - {x: -7, y: 18.5}
+        - {x: -10, y: 22.5}
+        - {x: -16, y: 22.5}
+        - {x: -16, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 16, y: -18.5}
+        - {x: 16, y: 22.5}
+      - - {x: 12, y: -19.5}
+        - {x: 12, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 16, y: -19.5}
+        - {x: 15, y: -18.5}
+    - name: 3860edited_299
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 333
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_300
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 313
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_301
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 282
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_302
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 334
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_303
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 337
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_304
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 333
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_305
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 325
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_306
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 282
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_307
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 304
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_308
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 328
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_309
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 316
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_310
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_311
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 325
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_312
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 302
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_313
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 289
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_314
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 310
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_315
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 292
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_316
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 297
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_317
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 303
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_318
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 305
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_319
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 295
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_320
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 302
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_321
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 281
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_322
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 294
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_323
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 302
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_324
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 298
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_325
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 271
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_326
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 277
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_327
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 259
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_328
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 265
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_329
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 270
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_330
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 257
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_331
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 257
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_332
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 260
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_333
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 212
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24}
+        - {x: 3, y: -29}
+        - {x: 16, y: -29}
+        - {x: 16, y: 14}
+        - {x: 6, y: 29}
+        - {x: -16, y: 29}
+        - {x: -16, y: -18}
+        - {x: -14, y: -29}
+        - {x: -1, y: -29}
+        - {x: 0, y: -28}
+        - {x: 0, y: -26}
+        - {x: -3, y: -25}
+      - - {x: -16, y: -3}
+        - {x: -15, y: -4}
+        - {x: -12, y: -3}
+        - {x: -12, y: 0}
+        - {x: -15, y: 1}
+        - {x: -16, y: 0}
+      - - {x: 12, y: -1}
+        - {x: 14, y: -4}
+        - {x: 16, y: -3}
+        - {x: 16, y: 0}
+        - {x: 14, y: 1}
+      - - {x: 13, y: 3}
+        - {x: 15, y: 1}
+        - {x: 16, y: 1}
+        - {x: 16, y: 6}
+        - {x: 14, y: 6}
+      - - {x: 13, y: 19}
+        - {x: 15, y: 17}
+        - {x: 16, y: 17}
+        - {x: 16, y: 22}
+        - {x: 14, y: 22}
+      - - {x: 12, y: 27}
+        - {x: 12, y: 29}
+        - {x: 7, y: 29}
+        - {x: 9, y: 26}
+    - name: 3860edited_334
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 258
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_335
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 248
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_336
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 235
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_337
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 234
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_338
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 260
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_339
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 13
+        width: 262
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131, y: 128}
+        - {x: -131, y: -128}
+        - {x: 131, y: -128}
+        - {x: 131, y: 128}
+    - name: 3860edited_340
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 214
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_341
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 212
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_342
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 237
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_343
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: 3860edited_344
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 227
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_345
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 226
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_346
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 233
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_347
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 231
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_348
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 216
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_349
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 223
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_350
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 203
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_351
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 220
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_352
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 215
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_353
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 195
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_354
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 203
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_355
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 214
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_356
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_357
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 206
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_358
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 199
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_359
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 183
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_360
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 90
+        width: 31
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_361
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 183
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_362
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 175
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_363
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 179
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_364
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 178
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_365
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 171
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_366
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 177
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_367
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 199
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_368
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 188
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_369
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 181
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_370
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 181
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_371
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_372
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 183
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_373
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 174
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_374
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_375
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 172
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_376
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 184
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_377
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 147
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_378
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_379
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 170
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_380
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 167
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_381
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 164
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_382
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 164
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_383
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 168
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_384
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 154
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_385
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 74
+        width: 12
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_386
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 153
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_387
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 155
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_388
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 153
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_389
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 159
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_390
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 155
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_391
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_392
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_393
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 153
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_394
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_395
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 147
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_396
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 153
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_397
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 138
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_398
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_399
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 115
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_400
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 146
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_401
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 136
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_402
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 137
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_403
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 144
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_404
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 114
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_405
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 143
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_406
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 121
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_407
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 134
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_408
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 100
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_409
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 127
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_410
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 113
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_411
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 127
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_412
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 103
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_413
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 118
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_414
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 121
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_415
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 111
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_416
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 121
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_417
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 108
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_418
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 106
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_419
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 66
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_420
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 101
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_421
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_422
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 90
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_423
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_424
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 89
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_425
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 66
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_426
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 94
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_427
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 74
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_428
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 73
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_429
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 58
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_430
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 80
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_431
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 39
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_432
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 57
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_433
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 66
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_434
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 40
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_435
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 47
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_436
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 36
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_437
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 7
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3860edited_438
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 314
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

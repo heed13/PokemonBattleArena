@@ -130,7 +130,7 @@ public class SoundPlayer : MonoBehaviour {
 	public void setMusicVolume(float vol) 
 	{
 		StopAllCoroutines ();
-		if (vol > 1)
+		//if (vol > 1)
 			vol = vol / 100;
 		musicVolume = vol;
 		music.volume = vol;

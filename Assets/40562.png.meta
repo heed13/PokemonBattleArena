@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 98f2627658e5ccf438ee78925cc8c0f4
-timeCreated: 1454042077
+timeCreated: 1456888312
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -2583,20 +2583,20 @@ TextureImporter:
         y: 1447
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.46723628, y: 0.31235504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 1, y: 16}
-        - {x: 0, y: 14}
-        - {x: -5, y: 16}
-        - {x: -14, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -13}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 15}
-        - {x: 14, y: 16}
+      - - {x: 2.048439, y: 22.004639}
+        - {x: 1.048439, y: 20.004639}
+        - {x: -3.951561, y: 22.004639}
+        - {x: -12.951561, y: 22.004639}
+        - {x: -14.951561, y: 17.004639}
+        - {x: -14.951561, y: -6.9953613}
+        - {x: -10.951561, y: -9.995361}
+        - {x: 17.048439, y: -9.995361}
+        - {x: 17.048439, y: 21.004639}
+        - {x: 15.048439, y: 22.004639}
     - name: 40562_151
       rect:
         serializedVersion: 2
@@ -2777,9 +2777,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 45
-        y: 1447
+        y: 1444
         width: 24
-        height: 21
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2879,8 +2879,8 @@ TextureImporter:
         y: 1450
         width: 10
         height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50952995, y: 0.4047119}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 40562_177
@@ -2889,18 +2889,7 @@ TextureImporter:
         x: 24
         y: 1448
         width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_178
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 1457
-        width: 6
-        height: 6
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6109,167 +6098,129 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 439
-        y: 970
+        y: 958
         width: 32
-        height: 25
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_460
-      rect:
-        serializedVersion: 2
-        x: 476
-        y: 995
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_461
-      rect:
-        serializedVersion: 2
-        x: 483
-        y: 991
-        width: 12
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_462
-      rect:
-        serializedVersion: 2
-        x: 487
-        y: 995
-        width: 15
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -16, y: 14}
+        - {x: -16, y: -14}
+        - {x: -12, y: -15}
+        - {x: 13, y: -15}
+        - {x: 16, y: -12}
+        - {x: 16, y: 13}
+        - {x: 15, y: 14}
     - name: 40562_463
       rect:
         serializedVersion: 2
         x: 507
-        y: 974
+        y: 961
         width: 32
-        height: 28
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 14, y: 19.5}
+        - {x: -10, y: 19.5}
+        - {x: -16, y: 16.5}
+        - {x: -16, y: -2.5}
+        - {x: -10, y: -12.5}
+        - {x: 10, y: -12.5}
+        - {x: 15, y: -2.5}
+        - {x: 16, y: 0.5}
+        - {x: 16, y: 17.5}
     - name: 40562_464
       rect:
         serializedVersion: 2
         x: 541
-        y: 978
+        y: 962
         width: 32
-        height: 21
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -6, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -6}
+        - {x: -9, y: -9}
+        - {x: 9, y: -9}
+        - {x: 13, y: -7}
+        - {x: 16, y: -5}
+        - {x: 16, y: 14}
     - name: 40562_465
       rect:
         serializedVersion: 2
         x: 575
-        y: 980
+        y: 963
         width: 32
-        height: 22
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -16, y: 18.5}
+        - {x: -16, y: -2.5}
+        - {x: -12, y: -7.5}
+        - {x: 10, y: -7.5}
+        - {x: 16, y: -4.5}
+        - {x: 16, y: 18.5}
     - name: 40562_466
       rect:
         serializedVersion: 2
         x: 609
-        y: 985
+        y: 964
         width: 32
-        height: 20
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_467
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 992
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_468
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 992
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -16, y: 21}
+        - {x: -16, y: -3}
+        - {x: 16, y: -3}
+        - {x: 16, y: 21}
     - name: 40562_469
       rect:
         serializedVersion: 2
-        x: 651
-        y: 994
-        width: 16
-        height: 13
+        x: 643
+        y: 965
+        width: 32
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_470
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 992
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_471
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 992
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 40562_472
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 997
-        width: 5
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -11, y: 21.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: 5.5}
+        - {x: -13, y: 3.5}
+        - {x: 12, y: 3.5}
+        - {x: 16, y: 5.5}
+        - {x: 16, y: 15.5}
+        - {x: 10, y: 21.5}
     - name: 40562_473
       rect:
         serializedVersion: 2
-        x: 683
-        y: 994
-        width: 26
-        height: 14
+        x: 677
+        y: 966
+        width: 32
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 16, y: 9}
+        - {x: 16, y: 20}
+        - {x: 15, y: 21}
+        - {x: -16, y: 21}
+        - {x: -16, y: 7}
+        - {x: -11, y: 5}
+        - {x: 13, y: 5}
     - name: 40562_474
       rect:
         serializedVersion: 2
@@ -6339,24 +6290,38 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 405
-        y: 964
+        y: 957
         width: 32
-        height: 26
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -14, y: 9.5}
+        - {x: -16, y: 7.5}
+        - {x: -16, y: -12.5}
+        - {x: -14, y: -20.5}
+        - {x: 14, y: -20.5}
+        - {x: 16, y: -14.5}
+        - {x: 16, y: 9.5}
     - name: 40562_480
       rect:
         serializedVersion: 2
         x: 473
-        y: 972
+        y: 959
         width: 32
-        height: 22
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -12, y: 18.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: -13.5}
+        - {x: 14, y: -13.5}
+        - {x: 16, y: -7.5}
+        - {x: 16, y: 14.5}
+        - {x: 10, y: 18.5}
     - name: 40562_481
       rect:
         serializedVersion: 2

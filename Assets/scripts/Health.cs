@@ -34,6 +34,7 @@ public class Health : MonoBehaviour
 	// Anim Vars
 	private Animator anim;
 	private const string animKilledTrigger = "killed";
+	private PlayerSprite ps;
 
 
 	void Awake()
@@ -45,6 +46,7 @@ public class Health : MonoBehaviour
 	void Start()
 	{
 		currentHP = totalHP;
+		ps = GetComponent<PlayerSprite> ();
 	}
 
 	void LateUpdate()
@@ -87,6 +89,9 @@ public class Health : MonoBehaviour
 		GetComponent<Collider2D> ().enabled = false;
 		Invoke ("SetActive", 2.0f);
 		HideBar ();
+		if (ps != null) {
+			ps.xp.resetXp (); 
+		}
 	}
 
 	void SetActive()
@@ -140,6 +145,7 @@ public class Health : MonoBehaviour
 			// Set vars, call onHit of attacker
 			currentHP = 0;
 			hitInfo.killed = true;
+			hitInfo.xpGiven = GetComponent<Experience> ().dropExperience();
 			atk.killCallback (hitInfo);
 			onKill.Invoke (hitInfo);
 
