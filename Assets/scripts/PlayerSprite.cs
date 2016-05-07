@@ -12,7 +12,9 @@ using System.Collections.Generic;
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(PlayerScore))]
-public class PlayerSprite : MonoBehaviour {
+public class PlayerSprite : MonoBehaviour
+{
+	public PokemonInfo currentPokemon; // current poke info
 
 	private bool colliderSet = false;
 	// we pretty much need to know about everything... so... here it goes
@@ -68,6 +70,7 @@ public class PlayerSprite : MonoBehaviour {
 	}
 	public void prepSprite(PokemonInfo pokemon, PlayerInfo player = default(PlayerInfo))
 	{
+		currentPokemon = pokemon;
 		// Set weaknesses/resistances
 		hp.weakAgainst = new List<pokemonType> (pokemon.weak);
 		hp.resistantTo = new List<pokemonType> (pokemon.resistant);
@@ -80,5 +83,9 @@ public class PlayerSprite : MonoBehaviour {
 		ac.prepareProjectilePool ();
 	}
 
+	public void evolve()
+	{
+		prepSprite (currentPokemon.nextEvolution);
+	}
 
 }

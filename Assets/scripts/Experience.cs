@@ -8,8 +8,17 @@ public class Experience : MonoBehaviour {
 	public bool setDropXp = false;
 	public int setDropAmount = 1;
 	private int xpRequired = 2;
+	private int currentStage = 0;
+	private List<int> evolutionLevels = new List<int>(){0,10,20};
+	private PlayerSprite ps;
+
 
 	public Animator lvlUpObject;
+
+	void Start()
+	{
+		ps = GetComponent<PlayerSprite> ();
+	}
 
 	public void resetXp()
 	{
@@ -21,6 +30,9 @@ public class Experience : MonoBehaviour {
 	{
 		totalExp += exp;
 		while (totalExp >= xpRequired) {
+			if (level >= evolutionLevels [currentStage + 1]) {
+				evolve ();
+			}
 			levelUp ();
 		}
 	}
@@ -44,5 +56,10 @@ public class Experience : MonoBehaviour {
 		level++;
 		xpRequired += level + 1;
 
+	}
+	void evolve()
+	{
+		currentStage++;
+		ps.evolve();
 	}
 }

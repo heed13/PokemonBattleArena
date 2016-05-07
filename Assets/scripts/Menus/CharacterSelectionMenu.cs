@@ -21,7 +21,6 @@ public class CharacterSelectionMenu : MonoBehaviour {
 	List<pokemonType> selectedSixTypes;
 	List<InstantGuiButton> selectedSixBtns;
 	int selectedMax = 6;
-
 	List<PokemonInfo> characterInfoList;
 	List<PokemonInfo> selectedCharacterInfoList;
 

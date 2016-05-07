@@ -33,7 +33,6 @@ public class Projectile : MonoBehaviour {
 				case "Projectile":
 				case "UnCollidable":
 					return;
-					break;
 				}
 			}
 			expired = true;

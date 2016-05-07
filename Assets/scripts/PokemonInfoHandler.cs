@@ -44,6 +44,12 @@ public class PokemonInfoHandler
 			info.resistantIcons.Add ((Texture)Resources.Load ("images/icons/bigCircle/" + info.resistant [i].ToString ().ToLower ()));
 		}
 
+		// Get next evolution
+		string nextEvoName = PokeEvolutions.getEvolution (_name);
+		if (nextEvoName != null) {
+			info.nextEvolution = PokemonInfoHandler.create (nextEvoName, _type);
+		}
+
 		return info;
 	}
 

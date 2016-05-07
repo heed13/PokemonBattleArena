@@ -15,8 +15,8 @@ public enum pokemonType {
 	grass,
 	count
 }
-
-public struct PokemonInfo 
+[System.Serializable]
+public class PokemonInfo 
 {
 	public string name; // name of pokemon
 	public int level; // current level of pokemon
@@ -31,6 +31,7 @@ public struct PokemonInfo
 	public List<Texture> resistantIcons; // icons of this pokemons resistances
 	public RuntimeAnimatorController animator; // what animator does this pokemon use?
 	public RuntimeAnimatorController attackAnimator; // what attack does this pokemon use? todo: this will probably change to some kind of dict later on
+	public PokemonInfo nextEvolution; // Next stage for this pokemon
 
 	public string attackSoundKey; // the sound key that should be played when this pokemon attacks
 	public string hitSoundKey; // the sound key that should be played when this pokemon hits something
