@@ -8,7 +8,9 @@ public class PokeEvolutions  {
 		{"Charmander", "Charmeleon"},
 		{"Charmeleon", "Charizard"},
 		{"Squirtle", "Wartortle"},
-
+		{"Wartortle", "Blastoise"},
+		{"Bulbasaur", "Ivysaur"},
+		{"Ivysaur", "Venusaur"},
 	};
 
 	public static string getEvolution(string pokemon)
@@ -17,7 +19,7 @@ public class PokeEvolutions  {
 			return families[pokemon];
 		}
 		catch (Exception) {
-			Debug.Log (pokemon + " HAS NO FAMILY!!");
+			//Debug.Log (pokemon + " HAS NO FAMILY!!");
 			return null;
 		}
 	}
