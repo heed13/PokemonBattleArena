@@ -17,7 +17,7 @@ public class PlayerScore : MonoBehaviour
 		totalKills++; // increment total kills
 		if (hit.player.nickname != null)
 			playerKills [hit.player.nickname]++; // increment player kills - use nickname
-		translateKillToScore (hit.pokemon.level); // transalte kill to score
+		//translateKillToScore (hit.pokemon.level); // transalte kill to score
 	}
 
 	void translateKillToScore(int level)

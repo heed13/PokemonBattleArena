@@ -49,7 +49,7 @@ public class PokemonInfoPanel : MonoBehaviour
 		}
 	}
 
-	public void linkPokemon(PlayerSprite player)
+	public void linkPokemon(PlayerPokemon player)
 	{
 		hpScript = player.hp;
 		xpScript = player.xp;

@@ -32,12 +32,12 @@ public class FFAGameMode : GameMode
 			setCameraToFollowObject (playerGO.transform);
 
 			// Link health panel to this pokemon
-			GameObject.FindObjectOfType<PokemonInfoPanel> ().linkPokemon (myCharacter.GetComponent<PlayerSprite> ());
+			GameObject.FindObjectOfType<PokemonInfoPanel> ().linkPokemon (myCharacter.GetComponent<PlayerPokemon> ());
 
 		} 
 
 		// Prep sprite
-		myCharacter.GetComponent<PlayerSprite> ().prepSprite (pokemon);
+		myCharacter.GetComponent<PlayerPokemon> ().prepSprite (pokemon);
 
 		// Spawn player at random location
 		myCharacter.transform.position = getRandomSpawnPoint ();

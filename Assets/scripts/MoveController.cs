@@ -14,8 +14,8 @@ public class MoveController : MonoBehaviour {
 
 	void Awake () 
 	{
-		rb = GetComponent<Rigidbody2D> ();
-		anim = GetComponent<Animator> ();
+		rb = GetComponent<PlayerPokemon> ().rb;
+		anim = GetComponent<PlayerPokemon> ().an;
 	}
 
 	public void MoveTo (float x = 0.0f, float y = 0.0f)

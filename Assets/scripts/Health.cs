@@ -34,19 +34,19 @@ public class Health : MonoBehaviour
 	// Anim Vars
 	private Animator anim;
 	private const string animKilledTrigger = "killed";
-	private PlayerSprite ps;
+	private PlayerPokemon ps;
 
 
 	void Awake()
 	{
-		anim = GetComponent<Animator> ();
+		anim = GetComponent<PlayerPokemon> ().an;
 		anim.logWarnings = false;
 	}
 
 	void Start()
 	{
 		currentHP = totalHP;
-		ps = GetComponent<PlayerSprite> ();
+		ps = GetComponent<PlayerPokemon> ();
 	}
 
 	void LateUpdate()
@@ -87,6 +87,7 @@ public class Health : MonoBehaviour
 	{
 		anim.SetTrigger (animKilledTrigger);
 		GetComponent<Collider2D> ().enabled = false;
+		transform.Find ("shadow").gameObject.SetActive (false);
 		Invoke ("SetActive", 2.0f);
 		HideBar ();
 		if (ps != null) {
@@ -102,7 +103,7 @@ public class Health : MonoBehaviour
 
 	IEnumerator FlashOnHit()
 	{
-		Renderer r = GetComponent<Renderer> ();
+		Renderer r = GetComponentInChildren<Renderer> ();
 		r.material.color = Color.red;
 		yield return new WaitForSeconds (0.1f);
 		r.material.color = Color.white;

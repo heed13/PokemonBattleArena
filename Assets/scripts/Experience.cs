@@ -10,14 +10,14 @@ public class Experience : MonoBehaviour {
 	private int xpRequired = 2;
 	private int currentStage = 0;
 	private List<int> evolutionLevels = new List<int>(){0,10,20};
-	private PlayerSprite ps;
+	private PlayerPokemon ps;
 
 
 	public Animator lvlUpObject;
 
 	void Start()
 	{
-		ps = GetComponent<PlayerSprite> ();
+		ps = GetComponent<PlayerPokemon> ();
 	}
 
 	public void resetXp()

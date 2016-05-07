@@ -3,7 +3,6 @@ using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 
-[RequireComponent(typeof(TeamMember), typeof(Animator))]
 public class AttackController : MonoBehaviour
 {
 	// Public vars
@@ -33,8 +32,8 @@ public class AttackController : MonoBehaviour
 	// ------------ Private Functions ------------
 	void Awake()
 	{
-		anim = GetComponent<Animator> ();
-		teamId = GetComponent<TeamMember> ().teamId;
+		anim = GetComponent<PlayerPokemon> ().an;
+		teamId = GetComponent<PlayerPokemon> ().tm.teamId;
 	}
 
 	void Start()

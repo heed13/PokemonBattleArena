@@ -2,17 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[RequireComponent(typeof(MoveController))]
-[RequireComponent(typeof(AttackController))]
-[RequireComponent(typeof(TeamMember))]
-[RequireComponent(typeof(Health))]
-[RequireComponent(typeof(Experience))]
-[RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(SpriteRenderer))]
-[RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(PlayerScore))]
-public class PlayerSprite : MonoBehaviour
+public class PlayerPokemon : MonoBehaviour
 {
 	public PokemonInfo currentPokemon; // current poke info
 
@@ -35,10 +25,10 @@ public class PlayerSprite : MonoBehaviour
 		tm = GetComponent<TeamMember> ();
 		hp = GetComponent<Health> ();
 		xp = GetComponent<Experience> ();
-		an = GetComponent<Animator> ();
-		rb = GetComponent<Rigidbody2D> ();
-		sr = GetComponent<SpriteRenderer> ();
-		bc = GetComponent<BoxCollider2D> ();
+		an = GetComponentInChildren<Animator> ();
+		rb = GetComponentInChildren<Rigidbody2D> ();
+		sr = GetComponentInChildren<SpriteRenderer> ();
+		bc = GetComponentInChildren<BoxCollider2D> ();
 
 	}
 	void Start()
